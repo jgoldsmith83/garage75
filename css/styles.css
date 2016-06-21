@@ -1,0 +1,57 @@
+body {
+  background-color: #585959;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+nav {
+  height: 100px;
+}
+
+.nav-logo-img {
+  width: 140px;
+  height: 60px;
+}
+
+footer{
+  text-align: center;
+  background-color: #373737;
+}
+
+.jumbotron {
+  height: 550px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+    #logo-wrapper {
+      //border: 1px solid black;
+      margin-left: 30%;
+    }
+
+  #footer-wrapper {
+    margin-left: 0;
+  }
+
+  footer {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+  }
+
+  #sour-dog {
+    color: #32cd32;
+  }
+ }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
