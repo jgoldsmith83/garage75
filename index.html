@@ -28,21 +28,6 @@
   <meta property="twitter:url" content="http://www.garagekitchenarcade.com" >
   <meta property="twitter:image" content="" >
 
-  <!-- UTILITY JS FILES -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/angular.min.js"></script>
-
-  <!-- CUSTOM JS FILES -->
-  <script src="js/animations.js"></script>
-  <script src="js/functions.js"></script>
-  <script src="js/controllers.js"></script>
-
-  <!-- CUSTOM JSON DATA FILES -->
-  <script src="js/json/food_extras.json"></script>
-  <script src="js/json/food.json"></script>
-  <script src="js/json/drinks.json"></script>
-
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -79,22 +64,53 @@
         <!-- END EXPANDED NAVBAR -->
       </nav>
 
-    <div class="row-fluid">
-      <div id="logo-wrapper">
+    <!--<div class="row-fluid">
+      <div id="logo-wrapper" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
         <a href="#">
-          <img src="images/garage_logo_white_removed.png">
+          <img src="images/garage_logo_white_removed.png" class="col-md-6 col-md-offset-3">
         </a>
       </div>
-    </div>
+    </div> -->
 
-    <!-- BEGIN JUMBOTRON -->
-    <div class="container-fluid">
-      <div class="jumbotron">
-        <h1>Jumbotron Title</h1> 
-        <p>Jumbotron text goes here</p> 
+    <!-- BEGIN CAROUSEL -->
+    <div class="container-fluid col-lg-8 col-md-8 col-lg-offest-2 col-md-offset-2">
+      <div class="row-fluid">
+        <div id="front-page-carousel" class="carousel slide" data-interval="2000" data-wrap="true">
+          <ol class="carousel-indicators">
+            <li data-target="front-page-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="front-page-carousel" data-slide-to="1"></li>
+            <li data-target="front-page-carousel" data-slide-to="2"></li>
+            <li data-target="front-page-carousel" data-slide-to="3"></li>
+          </ol> 
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="carousel-img" src="images/temp/bacon_cheese.jpg">
+            </div>
+
+            <div class="item">
+              <img class="carousel-img" src="images/temp/buffalo-wings.jpg">
+            </div>
+
+            <div class="item">
+              <img class="carousel-img" src="images/temp/salad.jpg">
+            </div>
+
+            <div class="item">
+              <img class="carousel-img" src="images/temp/beer.jpg">
+            </div>
+          </div>
+
+          <a class="left carousel-control" href="#front-page-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#front-page-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
       </div>
     </div>
-    <!-- END JUMBOTRON -->
+    <!-- END CAROUSEL -->
 
     <!-- BEGIN FOOD MENU -->
     <div class="row-fluid" ng-controller="foodMenuCtrl">
@@ -107,14 +123,29 @@
       </div>
     </div>
     <!-- END FOOD MENU -->
+  </div> <!-- END BODY CONTAINER -->
 
-    <!-- BEGIN FOOTER -->
+  <!-- BEGIN FOOTER -->
     <div class="row-fluid footer-wrapper">
       <footer class="page-footer">
         <p id="tag">powered by <span id="sour-dog">Sourdog Media</span></p>
       </footer>
     </div>
     <!-- END FOOTER -->
-  </div>
 </body>
+
+<!-- UTILITY JS FILES -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/angular.min.js"></script>
+
+  <!-- CUSTOM JSON DATA FILES -->
+  <script src="js/json/food_extras.json"></script>
+  <script src="js/json/food.json"></script>
+  <script src="js/json/drinks.json"></script>
+
+  <!-- CUSTOM JS FILES -->
+  <script src="js/animations.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/controllers.js"></script>
 </html>
