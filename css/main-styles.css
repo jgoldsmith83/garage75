@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-.navbar-default, .navbar-collapse {
+.navbar-default, .collapse, .navbar-collapse, .navbar-header, .navbar-container-custom, .navbar-brand, .nav-logo-img {
   z-index: 999;
 }
 
@@ -18,44 +18,45 @@ body {
   padding-bottom: 40px;
 }
 
-.carousel-img {
-  //width: 100%;
-  width: 900px;
-  height: 100px;
-} 
-
 nav {
   width: 100%;
   height: 100px;
   margin: 0;
+  z-index: 999;
 }
 
 .nav li {
   height: 100%;
   min-height: 100%;
+  z-index: 999;
 }
 
 .nav li a {
   margin-top: 50px;
+  z-index: 999;
 }
 
 .form-group input {
   margin-top: 60px;
+  z-index: 999;
 }
 
 .navbar-nav {
   height: 100px;
   min-height: 100px;
+  z-index: 999;
 }
 
 .nav-logo-img {
   width: 140px;
   height: 60px;
+  z-index: 999
 }
 
 #logo-wrapper {
   //border: 1px solid black;
   //margin-left: 30%;
+  margin-bottom: 10px;
 }
 
 #carousel-container, #carousel-wrapper {
@@ -65,13 +66,14 @@ nav {
 }
 
 #front-page-carousel {
-  margin-top: 0;
+  margin-top: -825px;
   z-index: 888;
 }
 
-.carousel-inner img {
-  min-width: 100%;
+.carousel-img {
+  width: 100%;
   height: 725px;
+  min-width: 100%;
   max-height: 725px;
   margin: auto;
   z-index: 888;
@@ -90,9 +92,8 @@ nav {
   background-size: 70% 100%;
 }
 
-#menu-placeholder {
-  margin-left: 33%;
-  margin-top: 20%;
+#content-text {
+  margin-top: 10px;
 }
 
 footer{
@@ -104,11 +105,6 @@ footer{
   bottom: 0;
   left: 0;
   background-color: #373737;
-}
-
-#menu-footer {
-  position: fixed;
-  bottom: 0;
 }
 
 #footer-wrapper {
@@ -133,37 +129,6 @@ footer{
   margin-top: 10px;
 }
 
-.carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-        }
-        
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-        }
-
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-        }
-
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        }
-    }
-
-    .carousel-control {
-        z-index: 2;
-    }
-}
 
 /* Large desktop */
 @media (min-width: 1200px) { ... }

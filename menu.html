@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html ng-app="garageKitchen">
 <head>
-  <title>Garage Kitchen and Arcade</title>
+  <title>Garage75</title>
 
   <meta charset="utf-8">
   <meta name="author" content="Justin Goldsmith">
-  <link rel="canonical" href="http://www.garagekitchenarcade.com">
+  <link rel="canonical" href="http://www.garage75.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="restaraunt, dining, burgers, seafood, wings, beer, cocktails" >
-  <meta name="description" content="Garage Kitchen Arcade - a restaurant in Charleston, SC">
+  <meta name="description" content="Garage75 - a restaurant in Charleston, SC">
 
   <!--FACEBOOK-->
   <meta property="og:title" content="" >
   <meta property="og:site_name" content="">
-  <meta property="og:url" content="http://www.garagekitchenarcade.com" >
-  <meta property="og:description" content="Garage Kitchen Arcade - a restaurant in Charleston, SC" >
+  <meta property="og:url" content="http://www.garage75.com" >
+  <meta property="og:description" content="Garage75 - a restaurant in Charleston, SC" >
   <meta property="og:image" content="" >
 
   <meta property="og:type" content="website" >
@@ -23,13 +23,14 @@
   <!--TWITTER-->
   <meta property="twitter:card" content="summary" >
   <meta property="twitter:title" content="" >
-  <meta property="twitter:description" content="Garage Kitchen Arcade - a restaurant in Charleston, SC" >
+  <meta property="twitter:description" content="Garage75 - a restaurant in Charleston, SC" >
   <meta property="twitter:creator" content="@" >
-  <meta property="twitter:url" content="http://www.garagekitchenarcade.com" >
+  <meta property="twitter:url" content="http://www.garage75.com" >
   <meta property="twitter:image" content="" >
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/main-styles.css">
+  <link rel="stylesheet" type="text/css" href="css/menu-styles.css">
 </head>
 <body>
   <div class="container-fluid" id="full-container">
@@ -50,7 +51,7 @@
             <ul class="nav navbar-nav">
               <li><a href="index.html">Home</a></li>
               <li class="active"><a href="#">Menu</a></li>
-              <li><a href="#">Specials</a></li>
+              <li><a href="#">Events &amp; Specials</a></li>
               <li><a href="#">Events</a></li>
             </ul>
 
@@ -65,7 +66,7 @@
       </nav>
       <!-- END NAVBAR -->
 
-    <!-- BEGIN FOOD MENU -
+    <!-- BEGIN FOOD MENU -->
     <div class="row-fluid" ng-controller="foodMenuCtrl">
       <div class="menu-title">
         <h2>{{food[0].title}}<h2>
@@ -75,11 +76,11 @@
         <p>{{itema}}</p>
       </div>
     </div>
-     END FOOD MENU -->
+     <!-- END FOOD MENU -->
 
      <div class="container-fluid" id="menu-placeholder">
         <p id="coming-soon">
-          Our menu is in the works. Please check back with us in a few days.
+          Our menu is in the works. Please check back in a few days.
         </p>
      </div>
 
