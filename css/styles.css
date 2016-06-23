@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+.navbar-default, .navbar-collapse {
+  z-index: 999;
+}
+
 #full-container {
   padding: 0;
   padding-bottom: 40px;
@@ -56,12 +60,14 @@ nav {
 
 #front-page-carousel {
   margin-top: 15px;
+  z-index: 888;
 }
 
 .carousel-inner img {
   min-width: 900px;
   min-height: 600px;
   margin: auto;
+  z-index: 888;
 }
 
 #text-content {
@@ -82,7 +88,7 @@ footer{
   text-align: center;
   margin: 0;
   width: 100%;
-  height: 40px;
+  height: 100px;
   bottom: 0;
   left: 0;
   background-color: #373737;
@@ -100,13 +106,49 @@ footer{
   color: #3aa8c1;
 }
 
-/* Large desktop */
-@media (min-width: 1200px) { 
+#tag {
+  padding-top: 5px;
+  margin-bottom: 0;
+}
 
-  #sour-dog {
-    
-  }
- }
+#g75-info {
+  margin-top: 10px;
+}
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { ... }

@@ -75,7 +75,7 @@
     <!-- BEGIN CAROUSEL -->
     <div class="container-fluid col-lg-8 col-md-8 col-lg-offest-2 col-md-offset-2">
       <div class="row-fluid">
-        <div id="front-page-carousel" class="carousel slide" data-interval="3000" data-wrap="true">
+        <div id="front-page-carousel" class="carousel slide carousel-fade">
           <ol class="carousel-indicators">
             <li data-target="front-page-carousel" data-slide-to="0" class="active"></li>
             <li data-target="front-page-carousel" data-slide-to="1"></li>
@@ -146,10 +146,11 @@
     <div class="row-fluid footer-wrapper">
       <footer class="page-footer">
         <p id="tag"><span id="sour-dog">Sourdog Media</span> | <span id="dot-slash">DotSlashDesign</span></p>
+        <p id="g75-info">Garage 75<br>1175 Folly Rd, Suite G : Charleston, SC 29412 <br> 843.225.4030</p>
       </footer>
     </div>
     <!-- END FOOTER -->
-</body>
+
 
 <!-- UTILITY JS FILES -->
   <script src="js/jquery.min.js"></script>
@@ -165,4 +166,14 @@
   <script src="js/animations.js"></script>
   <script src="js/functions.js"></script>
   <script src="js/controllers.js"></script>
+
+  <script type='text/javascript'>
+    $(document).ready(function() {
+         $('.carousel').carousel({
+             interval: 5000
+         })
+    });    
+  </script>
+
+</body>
 </html>
