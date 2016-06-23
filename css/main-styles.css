@@ -1,11 +1,13 @@
 html, body {
   height: 100%;
+  margin-bottom: 100px;
 }
 
 body {
   background-color: #585959;
   color: #fff;
   overflow-x: hidden;
+  margin-bottom: 100px;
 }
 
 .navbar-default, .collapse, .navbar-collapse, .navbar-header, .navbar-container-custom, .navbar-brand, .nav-logo-img {

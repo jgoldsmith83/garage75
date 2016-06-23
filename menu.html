@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="garageKitchen">
+<html ng-app="garage75">
 <head>
   <title>Garage75</title>
 
@@ -31,6 +31,21 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/main-styles.css">
   <link rel="stylesheet" type="text/css" href="css/menu-styles.css">
+
+  <!-- UTILITY JS FILES -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/angular.min.js"></script>
+
+  <!-- CUSTOM JSON DATA FILES -->
+  <script src="js/json/food_extras.js"></script>
+  <script src="js/json/food.js"></script>
+  <script src="js/json/drinks.js"></script>
+
+  <!-- CUSTOM JS FILES -->
+  <script src="js/animations.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/controllers.js"></script>
 </head>
 <body>
   <div class="container-fluid" id="full-container">
@@ -67,22 +82,66 @@
       <!-- END NAVBAR -->
 
     <!-- BEGIN FOOD MENU -->
-    <div class="row-fluid" ng-controller="foodMenuCtrl">
-      <div class="menu-title">
-        <h2>{{food[0].title}}<h2>
+    <div class="row-fluid">
+
+      <div class="menu-group col-lg-3 col-md-3" ng-controller="startersCtrl" id="starters-$index">
+        <div class="menu-title">
+          <h2>{{starters.title}}</h2>
+        </div>
+
+        <div class="menu-item" ng-repeat="x in starters.items track by $index">
+          <p>{{starters.items[$index].item}} - {{starters.items[$index].price}}</p>
+          <p>{{starters.items[$index].description}}</p>
+        </div>
       </div>
 
-      <div class="menu-item" ng-repeat="itema in food[0].items track by $index">
-        <p>{{itema}}</p>
+      <div class="menu-group col-lg-3 col-md-3" ng-controller="flatbreadsCtrl" id="flatbreads-$index">
+      <div class="menu-title">
+          <h2>{{flatbreads.title}}</h2>
+        </div>
+
+        <div class="menu-item" ng-repeat="x in flatbreads.items track by $index">
+          <p>{{flatbreads.items[$index].item}} - {{flatbreads.items[$index].price}}</p>
+          <p>{{flatbreads.items[$index].description}}</p>
+        </div>
       </div>
-    </div>
+
+      <div class="menu-group col-lg-3 col-md-3" ng-controller="saladsCtrl" id="salads-$index">
+        <div class="menu-title">
+          <h2>{{salads.title}}</h2>
+        </div>
+
+        <div class="menu-item" ng-repeat="x in salads.items track by $index">
+          <p>{{salads.items[$index].item}} - {{salads.items[$index].price}}</p>
+          <p>{{salads.items[$index].description}}</p>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-3 col-md-3" ng-controller="wingsCtrl" id="wings-$index">
+        <div class="menu-title">
+          <h2>{{wings.title}}</h2>
+        </div>
+
+        <div class="menu-item" ng-repeat="x in wings.items track by $index">
+          <p>{{wings.items[$index].item}} - {{wings.items[$index].price}}</p>
+          <p>{{wings.items[$index].description}}</p>
+        </div>
+
+        <div class="wings_extra">
+          <h3>Flavors:</h3>
+          <p>{{wing_extras.flavors}}</p>
+        </div>
+      </div>
+    </div> <!-- END MENU ROW -->
      <!-- END FOOD MENU -->
 
+     <!--
      <div class="container-fluid" id="menu-placeholder">
         <p id="coming-soon">
           Our menu is in the works. Please check back in a few days.
         </p>
      </div>
+    </div> -->
 
   </div> <!-- END BODY CONTAINER -->
 
@@ -95,19 +154,4 @@
     </div>
     <!-- END FOOTER -->
 </body>
-
-<!-- UTILITY JS FILES -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/angular.min.js"></script>
-
-  <!-- CUSTOM JSON DATA FILES -->
-  <script src="js/json/food_extras.json"></script>
-  <script src="js/json/food.json"></script>
-  <script src="js/json/drinks.json"></script>
-
-  <!-- CUSTOM JS FILES -->
-  <script src="js/animations.js"></script>
-  <script src="js/functions.js"></script>
-  <script src="js/controllers.js"></script>
 </html>

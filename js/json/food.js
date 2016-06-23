@@ -1,4 +1,4 @@
-food_menu = [
+var food_menu = [
   {
     "title": "First Gear Starters",
     "items": [
@@ -124,8 +124,7 @@ food_menu = [
       },
       {
         "item": "Classic Built Salad",
-        "price": "$7",
-        "description": food_extras.salad
+        "price": "$7"
       }
     ]
   },

@@ -1,4 +1,4 @@
-food_extras = { 
+var food_extras = { 
   "salad": [
     {
       "extra_title": "Greens:",
