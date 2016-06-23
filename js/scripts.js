@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  //Make the carousel slide from top into position - NOT WORKING ON FIREFOX
   $('#front-page-carousel').animate({'margin-top':'0'}, 2000);
 
   //Hide the left and right controls on the carousel when the page loads
