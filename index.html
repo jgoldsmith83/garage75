@@ -30,6 +30,22 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- UTILITY JS FILES -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/angular.min.js"></script>
+
+  <!-- CUSTOM JSON DATA FILES -->
+  <script src="js/json/food_extras.json"></script>
+  <script src="js/json/food.json"></script>
+  <script src="js/json/drinks.json"></script>
+
+  <!-- CUSTOM JS FILES -->
+  <script src="js/animations.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
 <body>
   <div class="container-fluid" id="full-container">
@@ -73,8 +89,8 @@
     </div> -->
 
     <!-- BEGIN CAROUSEL -->
-    <div class="container-fluid col-lg-8 col-md-8 col-lg-offest-2 col-md-offset-2">
-      <div class="row-fluid">
+    <div class="container-fluid col-lg-12 col-md-12 col-lg-offest-0 col-md-offset-0" id="carousel-container">
+      <div class="row-fluid" id="carousel-wrapper">
         <div id="front-page-carousel" class="carousel slide carousel-fade">
           <ol class="carousel-indicators">
             <li data-target="front-page-carousel" data-slide-to="0" class="active"></li>
@@ -150,30 +166,6 @@
       </footer>
     </div>
     <!-- END FOOTER -->
-
-
-<!-- UTILITY JS FILES -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/angular.min.js"></script>
-
-  <!-- CUSTOM JSON DATA FILES -->
-  <script src="js/json/food_extras.json"></script>
-  <script src="js/json/food.json"></script>
-  <script src="js/json/drinks.json"></script>
-
-  <!-- CUSTOM JS FILES -->
-  <script src="js/animations.js"></script>
-  <script src="js/functions.js"></script>
-  <script src="js/controllers.js"></script>
-
-  <script type='text/javascript'>
-    $(document).ready(function() {
-         $('.carousel').carousel({
-             interval: 5000
-         })
-    });    
-  </script>
 
 </body>
 </html>
