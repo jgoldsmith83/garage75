@@ -93,7 +93,7 @@ footer{
   text-align: center;
   margin: 0;
   width: 100%;
-  height: 100px;
+  height: 110px;
   bottom: 0;
   left: 0;
   background-color: #373737;
@@ -106,6 +106,7 @@ footer{
 
 #footer-wrapper {
   margin-left: 0;
+  margin-bottom: 0;
 }
 
 #sour-dog {
