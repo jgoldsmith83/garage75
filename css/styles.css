@@ -83,6 +83,11 @@ nav {
   background-size: 70% 100%;
 }
 
+#menu-placeholder {
+  margin-left: 33%;
+  margin-top: 20%;
+}
+
 footer{
   position: relative;
   text-align: center;
@@ -92,6 +97,11 @@ footer{
   bottom: 0;
   left: 0;
   background-color: #373737;
+}
+
+#menu-footer {
+  position: fixed;
+  bottom: 0;
 }
 
 #footer-wrapper {
