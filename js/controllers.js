@@ -28,6 +28,32 @@ app.controller('wingsCtrl', function($scope) {
 
 });
 
+app.controller('sammyCtrl', function($scope) {
+
+  $scope.sammies = food_menu[4];
+
+});
+
+app.controller('burgerCtrl', function($scope) {
+
+  $scope.burgers = food_menu[5];
+
+});
+
+app.controller('seafoodCtrl', function($scope) {
+
+  $scope.seafood = food_menu[6];
+
+});
+
+app.controller('dinnerCtrl', function($scope) {
+
+  $scope.dinner = food_menu[7];
+
+  $scope.sides = food_menu[8];
+
+});
+
 app.controller("drinkMenuCtrl", function($scope) {
 
   

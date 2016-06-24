@@ -124,7 +124,8 @@ var food_menu = [
       },
       {
         "item": "Classic Built Salad",
-        "price": "$7"
+        "price": "$7",
+        "description": "build your own salad to your specs"
       }
     ]
   },
@@ -213,12 +214,10 @@ var food_menu = [
       },
       {
         "item": "Beef Patty or Grilled Chicken",
-        "price": "Single - $7<br>Double - $9<br>Triple - $11",
+        "price": "$7 | $9 | $11",
         "description": "Lettuce, Tomato, Onion included"
       }
-    ],
-    "extras": food_extras.burgers[0],
-    "extras2": food_extras.burgers[1]
+    ]
   },
   {
     "title": "Oil Station",
@@ -226,22 +225,22 @@ var food_menu = [
       {
         "item": "Fried Shrimp",
         "price": "$9",
-        "description": ""
+        "description": "golden fried lowcountry shrimp"
       },
       {
         "item": "Fried Oysters",
         "price": "$9",
-        "description": ""
+        "description": "deep fried, locally harvested"
       },
       {
         "item": "Fried Flounder",
         "price": "$9",
-        "description": ""
+        "description": "deep fried bottom feeder"
       },
       {
         "item": "Trio",
         "price": "$14",
-        "description": ""
+        "description": "a portion of each of our best sea meat"
       }
     ]
   },
