@@ -39,3 +39,11 @@
   color: #f9f9f9;
   //border: 1px solid black;
 }
+
+.wings-extra {
+  padding-top: 0;
+}
+
+.wings-extra h3 {
+  margin-top: -5px;
+}
