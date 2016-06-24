@@ -85,46 +85,46 @@
     <!-- BEGIN FOOD MENU -->
     <div class="row-fluid">
 
-      <div class="menu-group col-lg-3 col-md-3" ng-controller="startersCtrl">
+      <div class="menu-group col-lg-12 col-md-12 col-lg-offset-1 col-md-offset-1" ng-controller="startersCtrl">
         <div class="menu-title">
           <h2>{{starters.title}}</h2>
         </div>
 
-        <div class="menu-item" ng-repeat="x in starters.items track by $index" id="starters-{{$index}}">
-          <p>{{starters.items[$index].item}} - {{starters.items[$index].price}}</p>
+        <div class="menu-item col-lg-3 col-md-3" ng-repeat="x in starters.items track by $index" id="starters-{{$index}}">
+          <h4>{{starters.items[$index].item}}</h4> <span class="price">{{starters.items[$index].price}}</span>
           <p>{{starters.items[$index].description}}</p>
         </div>
       </div>
 
-      <div class="menu-group col-lg-3 col-md-3" ng-controller="flatbreadsCtrl" id="flatbreads-{{$index}}">
+      <div class="menu-group col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1" ng-controller="flatbreadsCtrl" id="flatbreads-{{$index}}">
       <div class="menu-title">
           <h2>{{flatbreads.title}}</h2>
         </div>
 
-        <div class="menu-item" ng-repeat="x in flatbreads.items track by $index">
-          <p>{{flatbreads.items[$index].item}} - {{flatbreads.items[$index].price}}</p>
+        <div class="menu-item col-lg-3 col-md-3" ng-repeat="x in flatbreads.items track by $index">
+          <h4>{{flatbreads.items[$index].item}}  {{flatbreads.items[$index].price}}</h4>
           <p>{{flatbreads.items[$index].description}}</p>
         </div>
       </div>
 
-      <div class="menu-group col-lg-3 col-md-3" ng-controller="saladsCtrl" id="salads-{{$index}}">
+      <div class="menu-group col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1" ng-controller="saladsCtrl" id="salads-{{$index}}">
         <div class="menu-title">
           <h2>{{salads.title}}</h2>
         </div>
 
-        <div class="menu-item" ng-repeat="x in salads.items track by $index">
-          <p>{{salads.items[$index].item}} - {{salads.items[$index].price}}</p>
+        <div class="menu-item col-lg-3 col-md-3" ng-repeat="x in salads.items track by $index">
+          <p>{{salads.items[$index].item}}  {{salads.items[$index].price}}</p>
           <p>{{salads.items[$index].description}}</p>
         </div>
       </div>
 
-      <div class="menu-group col-lg-3 col-md-3" ng-controller="wingsCtrl" id="wings-{{$index}}">
+      <div class="menu-group col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1" ng-controller="wingsCtrl" id="wings-{{$index}}">
         <div class="menu-title">
           <h2>{{wings.title}}</h2>
         </div>
 
-        <div class="menu-item" ng-repeat="x in wings.items track by $index">
-          <p>{{wings.items[$index].item}} - {{wings.items[$index].price}}</p>
+        <div class="menu-item col-lg-3 col-md-3" ng-repeat="x in wings.items track by $index">
+          <p>{{wings.items[$index].item}}  {{wings.items[$index].price}}</p>
           <p>{{wings.items[$index].description}}</p>
         </div>
 
