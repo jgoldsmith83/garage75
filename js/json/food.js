@@ -141,8 +141,7 @@ var food_menu = [
         "price": "$11",
         "description": "two flavors"
       }
-    ],
-    "flavors": food_extras.wings[0].salads
+    ]
   },
   {
     "title": "Off Road Sanwiches",
