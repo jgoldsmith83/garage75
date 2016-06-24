@@ -13,12 +13,12 @@ var food_menu = [
         "description": "southern style boiled peanuts"
       },
       {
-        "item": "Bag o'Chips",
+        "item": "Bag o' Chips",
         "price": "$4",
-        "description": "Dry seasoned chips: BBQ, salt & vinegar, or chili cheese"
+        "description": "dry seasoned chips: BBQ, salt & vinegar, or chili cheese"
       },
       {
-        "item": "Bag o'Jerk",
+        "item": "Bag o' Jerk",
         "price": "$6",
         "description": "teriyaki, ghost pepper, or cracked pepper"
       },
@@ -45,7 +45,7 @@ var food_menu = [
       {
         "item": "Cold Crab Dip",
         "price": "$8",
-        "description": "ritz crackers"
+        "description": "Ritz crackers"
       },
       {
         "item": "Fried Oysters",
@@ -60,7 +60,7 @@ var food_menu = [
       {
         "item": "Jalapeno Bacon Mac & Cheese Skillet",
         "price": "$8",
-        "description": "pickled japapeno, bacon, cheesy mac and cheese"
+        "description": "pickled jalapeno, bacon, cheesy mac and cheese"
       },
       {
         "item": "Tenders better be Tender",

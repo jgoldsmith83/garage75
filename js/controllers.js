@@ -16,6 +16,8 @@ app.controller('saladsCtrl', function($scope) {
 
   $scope.salads = food_menu[2];
 
+  $scope.salad_extras = food_extras.salad;
+
 });
 
 app.controller('wingsCtrl', function($scope) {
