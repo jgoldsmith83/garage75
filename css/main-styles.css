@@ -13,6 +13,8 @@ body {
 
 .navbar-default, .collapse, .navbar-collapse, .navbar-header, .navbar-container-custom, .navbar-brand, .nav-logo-img {
   z-index: 999;
+  height: 80px;
+  max-height: 80px;
 }
 
 #full-container {
