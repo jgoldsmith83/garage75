@@ -1,0 +1,56 @@
+
+#menu-placeholder {
+  margin-left: 33%;
+  margin-top: 20%;
+}
+
+#menu-footer {
+  position: relative;
+  bottom: 0;
+}
+
+.menu-group {
+  //margin-left: 5px;
+  //border: 1px solid white;
+}
+
+.menu-item h4 {
+  width: 100%;
+  background-color: #1a1a1a;
+  margin-left: -15px;
+  padding: 5px 5px 5px 20px;
+}
+
+.menu-item {
+  display: inline-block;
+  //border: 1px solid white;
+  //width: 400px;
+  padding-right: 0;
+  min-height: 120px;
+  max-height: 120px;
+  margin: 0 0 15px 15px;
+  background-color: #182943;
+  color: #f9f9f9;
+  box-shadow: 2px 2px 2px 1px #000;
+}
+
+.price {
+  float: right;
+  height: 100%;
+  min-height: 100%;
+  font-size: 1.6em;
+  margin-top: 0;
+  margin-right: -5px;
+  padding: 20px;
+  background-color: #6a2933;
+  color: #f9f9f9;
+  //border: 1px solid black;
+}
+
+.wings-extra {
+  padding-top: 0;
+}
+
+.wings-extra h3 {
+  margin-top: -5px;
+}
