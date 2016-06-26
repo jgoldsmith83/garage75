@@ -1,22 +1,18 @@
 
-.row-fluid {
-  height: 100%;
-  min-height: 100%
-}
-
 #map-container {
-  height: 100%;
-  min-height: 100%;
-}
-
-.map {
-  width: 100%;
-  height: 100%;
-  min-height: 100%
+  //width: 500px;
+  //height: 75%;
+  //margin-top: 20px;
   border: 1px solid white;
 }
 
+#map-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
+

@@ -1,3 +1,8 @@
+
+var mapWidth = window.innerWidth;
+var mapHeight = window.innerHeight;
+
+
 $(document).ready(function() {
 
   /*Make the carousel slide from top into position - NOT WORKING ON FIREFOX */
@@ -20,6 +25,8 @@ $(document).ready(function() {
   $('.carousel').mouseleave(function() {
     $('.carousel-control').fadeOut('fast');
   });
+
+  $('#map-container').css({'height':mapWidth});
 
 });
 
