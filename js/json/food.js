@@ -5,72 +5,72 @@ var food_menu = [
       {
         "item": "G75 Wings",
         "price": "$9",
-        "description": "six breaded jumbo wings, warm chipotle sauce"
+        "description": "Six breaded jumbo wings served w/ warm chipotle sauce"
       },
       {
         "item": "Salty Boiled Peanuts",
         "price": "$4",
-        "description": "southern style boiled peanuts"
+        "description": "Southern style boiled peanuts"
       },
       {
         "item": "Bag o' Chips",
         "price": "$4",
-        "description": "dry seasoned chips: BBQ, salt & vinegar, or chili cheese"
+        "description": "Dry seasoned chips: BBQ, salt & vinegar, or chili cheese"
       },
       {
         "item": "Bag o' Jerk",
         "price": "$6",
-        "description": "teriyaki, ghost pepper, or cracked pepper"
+        "description": "Teriyaki, Ghost pepper, or Cracked pepper"
       },
       {
         "item": "Pickled Fries",
         "price": "$6",
-        "description": "jalapeno ranch"
+        "description": "Served w/ jalapeno ranch"
       },
       {
         "item": "Lima Bean Hummus",
         "price": "$7",
-        "description": "chopped carrots, celery, cut toasted flatbread"
+        "description": "Served w/ chopped carrots, celery, cut & toasted flatbread"
       },
       {
         "item": "Mini Corndogs",
         "price": "$5",
-        "description": "two mini dogs, spicy mustard"
+        "description": "Two mini dogs served w/ spicy mustard"
       },
       {
         "item": "Fried Summer Squash",
         "price": "$7",
-        "description": "jalapeno ranch"
+        "description": "Served w/ jalapeno ranch"
       },
       {
         "item": "Cold Crab Dip",
         "price": "$8",
-        "description": "Ritz crackers"
+        "description": "Served w/ Ritz crackers"
       },
       {
         "item": "Fried Oysters",
         "price": "$9",
-        "description": "cajun garlic ailoli"
+        "description": "Served w/ our cajun garlic ailoli"
       },
       {
         "item": "Loaded Scottish Nachos",
         "price": "$9",
-        "description": "fresh fried potato chips,queso, pickled jalapenos, romaine, tomatoes, corned beef, saurkrat"
+        "description": "Fresh fried potato chips covered in queso cheese, pickled jalapenos, romaine, tomatoes, corned beef & saurkrat"
       },
       {
         "item": "Jalapeno Bacon Mac & Cheese Skillet",
         "price": "$8",
-        "description": "pickled jalapeno, bacon, cheesy mac and cheese"
+        "description": "Pickled jalapeno, bacon, cheesy mac and cheese"
       },
       {
         "item": "Tenders better be Tender",
         "price": "$8",
-        "description": "honey mustard"
+        "description": "Served with honey mustard"
       },
       {
         "item": "Chicken Ques O dilla",
         "price": "$9",
-        "description": "roasted chicken, cheddar, queso served with queso"
+        "description": "Roasted chicken, cheddar, queso served with queso"
       }
     ]
   },
