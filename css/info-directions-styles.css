@@ -13,18 +13,14 @@ body, html {
 }
 
 #map-container {
-<<<<<<< HEAD
   width: 80%;
   height: 75%;
   margin-top: 20px;
-  border: 1px solid white;
-=======
   width: 100%;
   height: 100%;
   margin-top: -20px;
   margin: 0;
   padding: 0;
->>>>>>> 6a5d77849f31c79d9dcf570d89fb9c61cd8a3f37
 }
 
 #map-container iframe {
