@@ -121,9 +121,11 @@
           <p>{{salads.items[$index].description}}</p>
         </div>
 
-        <div class="menu-item-extra col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in salad_extras track by $index" id="salad-extra-{{$index}}">
-          <h4>{{salad_extras[$index].extra_title}}</h4>
-          <p>{{salad_extras[$index].options}}</p>
+        <div class="salads-extras-container col-lg-8 col-md-8 col-sm-10 col-xs-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+          <div class="salad-item-extra col-lg-2 col-md-2 col-sm-10 col-xs-11" ng-repeat="x in salad_extras track by $index" id="salad-extra-{{$index}}">
+            <h4>{{salad_extras[$index].extra_title}}</h4>
+            <p>{{salad_extras[$index].options}}</p>
+          </div>
         </div>
       </div>
 

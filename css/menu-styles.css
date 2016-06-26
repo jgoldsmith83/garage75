@@ -35,6 +35,10 @@ body {
   box-shadow: 2px 2px 2px 1px #000;
 }
 
+.salads-extras-container {
+  background-color: #182943;
+}
+
 .price {
   float: right;
   height: 100%;

@@ -26,7 +26,7 @@ $(document).ready(function() {
     $('.carousel-control').fadeOut('fast');
   });
 
-  $('#map-container').css({'height':mapWidth});
+  var buildSalad = $('#salads-3').innerHTML;
 
 });
 
