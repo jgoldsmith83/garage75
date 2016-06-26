@@ -1,0 +1,83 @@
+
+body {
+  background-image: url("../images/stamp_trans.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 80% 100%;
+}
+
+#menu-footer {
+  position: relative;
+  bottom: 0;
+}
+
+.menu-group {
+  //margin-left: 5px;
+  //border: 1px solid white;
+}
+
+.menu-item h4 {
+  width: 100%;
+  background-color: #1a1a1a;
+  margin-left: -15px;
+  padding: 5px 5px 5px 20px;
+}
+
+.menu-item {
+  display: inline-block;
+  padding-right: 0;
+  min-height: 120px;
+  max-height: 120px;
+  margin: 0 0 20px 20px;
+  background-color: #182943;
+  color: #f9f9f9;
+  box-shadow: 2px 2px 2px 1px #000;
+}
+
+.price {
+  float: right;
+  height: 100%;
+  min-height: 100%;
+  font-size: 1.6em;
+  margin-top: 0;
+  margin-right: -5px;
+  padding: 20px;
+  background-color: #6a2933;
+  color: #f9f9f9;
+  box-shadow: 0 2px 2px 1px #000;
+  //border: 1px solid black;
+}
+
+.wings-extra {
+  padding-top: 0;
+}
+
+.wings-extra h3 {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+  .menu-item {
+    margin-left: 0 0 15px 0;
+  }
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  .menu-item {
+    margin-left: 0 0 15px 0;
+  }
+
+}

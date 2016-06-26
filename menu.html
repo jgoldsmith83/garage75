@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html ng-app="garage75">
+<head>
+  <title>Garage75</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="Justin Goldsmith">
+  <link rel="canonical" href="http://www.garage75.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="restaraunt, dining, burgers, seafood, wings, beer, cocktails" >
+  <meta name="description" content="Garage75 - a restaurant in Charleston, SC">
+
+  <!--FACEBOOK-->
+  <meta property="og:title" content="" >
+  <meta property="og:site_name" content="">
+  <meta property="og:url" content="http://www.garage75.com" >
+  <meta property="og:description" content="Garage75 - a restaurant in Charleston, SC" >
+  <meta property="og:image" content="" >
+
+  <meta property="og:type" content="website" >
+  <meta property="og:locale" content="" >
+
+  <!--TWITTER-->
+  <meta property="twitter:card" content="summary" >
+  <meta property="twitter:title" content="" >
+  <meta property="twitter:description" content="Garage75 - a restaurant in Charleston, SC" >
+  <meta property="twitter:creator" content="@" >
+  <meta property="twitter:url" content="http://www.garage75.com" >
+  <meta property="twitter:image" content="" >
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main-styles.css">
+  <link rel="stylesheet" type="text/css" href="css/menu-styles.css">
+
+  <!-- UTILITY JS FILES -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/angular.min.js"></script>
+
+  <!-- CUSTOM JSON DATA FILES -->
+  <script src="js/json/food_extras.js"></script>
+  <script src="js/json/food.js"></script>
+  <script src="js/json/drinks.js"></script>
+
+  <!-- CUSTOM JS FILES -->
+  <script src="js/animations.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/menu.js"></script>
+</head>
+<body>
+  <div class="container-fluid" id="full-container">
+
+    <nav class="nav navbar-default">
+        <!-- BEGIN COLLAPSED NAVBAR -->
+        <div class="container-fluid nav-container-custom">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+              <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+            <a href="#" class="navbar-brand">
+              <img class="nav-logo-img" src="images/garage_logo_white_removed.png">
+            </a>
+          </div>
+        <!-- END COLLAPSED NAVBAR -->
+
+        <!-- BEGIN EXPANDED NAVBAR -->
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="menu.html">Menu</a></li>
+              <li><a href="event_special.html">Events &amp; Specials</a></li>
+              <li><a href="info_directions.html">Info &amp; Directions</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <!--
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" name="search" class="form-control-custom" placeholder="Search...">
+              </div>
+            </form>
+            -->
+          </div>
+        </div>
+        <!-- END EXPANDED NAVBAR -->
+      </nav>
+      <!-- END NAVBAR -->
+
+    <!-- BEGIN FOOD MENU -->
+    <div class="row-fluid">
+
+      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="startersCtrl">
+        <div class="menu-title">
+          <h2>{{starters.title}}</h2>
+        </div>
+        <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in starters.items track by $index" id="starters-{{$index}}">
+          <h4>{{starters.items[$index].item}}</h4> <span class="price">{{starters.items[$index].price}}</span>
+          <p>{{starters.items[$index].description}}</p>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="flatbreadsCtrl">
+      <div class="menu-title">
+          <h2>{{flatbreads.title}}</h2>
+        </div>
+
+        <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in flatbreads.items track by $index" id="flatbreads-{{$index}}">
+          <h4>{{flatbreads.items[$index].item}}</h4>  <span class="price">{{flatbreads.items[$index].price}}</span>
+          <p>{{flatbreads.items[$index].description}}</p>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="saladsCtrl">
+        <div class="menu-title">
+          <h2>{{salads.title}}</h2>
+        </div>
+
+        <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in salads.items track by $index" id="salads-{{$index}}">
+          <h4>{{salads.items[$index].item}}</h4>  <span class="price">{{salads.items[$index].price}}</span>
+          <p>{{salads.items[$index].description}}</p>
+        </div>
+
+        <div class="menu-item-extra col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in salad_extras track by $index" id="salad-extra-{{$index}}">
+          <h4>{{salad_extras[$index].extra_title}}</h4>
+          <p>{{salad_extras[$index].options}}</p>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="wingsCtrl">
+        <div class="menu-title">
+          <h2>{{wings.title}}</h2>
+        </div>
+
+        <div class="menu-item col-lg-4 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in wings.items track by $index" id="wings-{{$index}}">
+          <h4>{{wings.items[$index].item}}</h4>  <span class="price">{{wings.items[$index].price}}</span>
+          <p>{{wings.items[$index].description}}</p>
+        </div>
+
+        <div class="wings-extra menu-item col-lg-8 col-md-8 col-sm-10 col-xs-11">
+          <h4>Choose Your Flavor</h4>
+          <p>{{wing_extras.flavors}}</p>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="sammyCtrl">
+        <div class="menu-title">
+          <h2>{{sammies.title}}</h2>
+        </div>
+
+        <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in sammies.items track by $index" id="sammies-{{$index}}">
+          <h4>{{sammies.items[$index].item}}</h4>  <span class="price">{{sammies.items[$index].price}}</span>
+          <p>{{sammies.items[$index].description}}</p>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="burgerCtrl">
+        <div class="menu-title">
+          <h2>{{burgers.title}}</h2>
+        </div>
+
+        <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in burgers.items track by $index" id="burgers-{{$index}}">
+          <h4>{{burgers.items[$index].item}}</h4>  <span class="price">{{burgers.items[$index].price}}</span>
+          <p>{{burgers.items[$index].description}}</p>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="seafoodCtrl">
+        <div class="menu-title">
+          <h2>{{seafood.title}}</h2>
+        </div>
+
+        <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in seafood.items track by $index" id="seafood-{{$index}}">
+          <h4>{{seafood.items[$index].item}}</h4>  <span class="price">{{seafood.items[$index].price}}</span>
+          <p>{{seafood.items[$index].description}}</p>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="dinnerCtrl">
+        <div class="menu-title">
+          <h2>{{dinner.title}}</h2>
+        </div>
+
+        <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in dinner.items track by $index" id="dinner-{{$index}}">
+          <h4>{{dinner.items[$index].item}}</h4>  <span class="price">{{dinner.items[$index].price}}</span>
+          <p>{{dinner.items[$index].description}}</p>
+        </div>
+
+        <div class="menu-item col-lg-6 col-md-6 col-sm-11 col-xs-12" id="dinner-sides">
+          <h4>{{sides.title}}</h4>  <span class="price">{{sides.price1}}</span> <span class="price">{{sides.price2}}</span>
+          <p>{{sides.items}}</p>
+        </div>
+      </div>
+      
+    </div> <!-- END MENU ROW -->
+     <!-- END FOOD MENU -->
+
+     <!--
+     <div class="container-fluid" id="menu-placeholder">
+        <p id="coming-soon">
+          Our menu is in the works. Please check back in a few days.
+        </p>
+     </div>
+    </div> -->
+
+  </div> <!-- END BODY CONTAINER -->
+
+  <!-- BEGIN FOOTER -->
+    <div class="row-fluid footer-wrapper">
+      <footer class="page-footer" id="menu-footer">
+        <p id="tag"><span id="sour-dog">Sourdog Media</span> | <span id="dot-slash">DotSlashDesign</span></p>
+        <p id="g75-info">Garage 75<br>1175 Folly Rd, Suite G : Charleston, SC 29412 <br> 843.225.4030</p>
+      </footer>
+    </div>
+    <!-- END FOOTER -->
+</body>
+</html>

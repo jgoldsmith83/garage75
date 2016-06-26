@@ -1,0 +1,30 @@
+
+body {
+  background-image: url("../images/stamp_trans.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 80% 100%;
+}
+
+#menu-placeholder {
+  margin-left: 33%;
+  margin-top: 20%;
+}
+
+#menu-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
