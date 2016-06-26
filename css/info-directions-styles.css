@@ -1,18 +1,35 @@
 
+body, html {
+  height: 100%;
+}
+
+#map-row {
+  height: 700px;
+  min-height: 700px;
+  max-height: 700px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 #map-container {
-  //width: 500px;
-  //height: 75%;
-  //margin-top: 20px;
-  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  margin-top: -20px;
+  margin: 0;
+  padding: 0;
 }
 
 #map-container iframe {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin-bottom: 0;
 }
 
