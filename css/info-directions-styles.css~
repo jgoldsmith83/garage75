@@ -1,8 +1,8 @@
 
 #map-container {
-  width: 80%;
-  height: 75%;
-  margin-top: 20px;
+  //width: 500px;
+  //height: 75%;
+  //margin-top: 20px;
   border: 1px solid white;
 }
 
