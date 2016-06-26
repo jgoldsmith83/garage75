@@ -30,7 +30,7 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/main-styles.css">
-  <link rel="stylesheet" type="text/css" href="css/event-special-styles.css">
+  <link rel="stylesheet" type="text/css" href="css/info-directions-styles.css">
 
   <!-- UTILITY JS FILES -->
   <script src="js/jquery.min.js"></script>
@@ -83,8 +83,11 @@
       </nav>
       <!-- END NAVBAR -->
 
-     <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJk-DQpgF5_ogRMA9lWZyrTNE&key=AIzaSyAHiadS9EhcFxPyIgVqcE2l6gYj7lHhbjI" allowfullscreen></iframe>
-
+      <div class="row-fluid">
+        <div class="container-fluid col-lg-10 col-md-10 col-sm-10 col-xs-10 col-offset-1" id="map-container">
+          <iframe width="100%" height="100%" frameborder="0" style="border:0" class="map" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJk-DQpgF5_ogRMA9lWZyrTNE&key=AIzaSyAHiadS9EhcFxPyIgVqcE2l6gYj7lHhbjI" allowfullscreen></iframe>
+        </div>
+      </div>
 
 
   </div> <!-- END BODY CONTAINER -->
