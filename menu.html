@@ -51,7 +51,7 @@
 <body>
   <div class="container-fluid" id="full-container">
 
-    <nav class="nav navbar-default">
+    <nav class="nav navbar-default navbar-static-top">
         <!-- BEGIN COLLAPSED NAVBAR -->
         <div class="container-fluid nav-container-custom">
           <div class="navbar-header">
@@ -88,11 +88,13 @@
       <!-- END NAVBAR -->
 
     <!-- BEGIN FOOD MENU -->
-    <div class="row-fluid">
+    <div class="row-fluid" id="menu-wrapper">
 
-      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="startersCtrl">
-        <div class="menu-title" data-toggle="collapse" data-target="#starter-wrapper">
-          <h2>{{starters.title}}</h2>
+      <div class="menu-group col-lg-11 col-md-11 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="startersCtrl">
+        <div class="menu-title" 
+             data-toggle="collapse"
+             data-target="#starter-wrapper">
+          <h2>{{starters.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2> 
         </div>
 
         <div class="collapse" id="starter-wrapper">
@@ -105,9 +107,11 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="flatbreadsCtrl">
-      <div class="menu-title" data-toggle="collapse" data-target="#flatbread-wrapper">
-          <h2>{{flatbreads.title}}</h2>
+      <div class="menu-group col-lg-11 col-md-11 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="flatbreadsCtrl">
+      <div class="menu-title"
+           data-toggle="collapse"
+           data-target="#flatbread-wrapper">
+          <h2>{{flatbreads.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
         </div>
 
         <div class="collapse" id="flatbread-wrapper">
@@ -120,12 +124,15 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="saladsCtrl">
-        <div class="menu-title" data-toggle="collapse" data-target="#salad-wrapper">
-          <h2>{{salads.title}}</h2>
+      <div class="menu-group col-lg-11 col-md-11 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="saladsCtrl">
+        <div class="menu-title" 
+             data-toggle="collapse"
+             data-target="#salad-wrapper">
+          <h2>{{salads.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
         </div>
 
-        <div class="collapse" id="salad-wrapper">
+        <div class="collapse"
+              id="salad-wrapper">
           <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11"
                ng-repeat="x in salads.items track by $index"
                id="salads-{{$index}}">
@@ -142,12 +149,15 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="wingsCtrl">
-        <div class="menu-title" data-toggle="collapse" data-target="#wings-wrapper">
-          <h2>{{wings.title}}</h2>
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="wingsCtrl">
+        <div class="menu-title" 
+              data-toggle="collapse"
+              data-target="#wings-wrapper">
+          <h2>{{wings.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
         </div>
 
-        <div class="collapse" id="wings-wrapper">
+        <div class="collapse"
+              id="wings-wrapper">
           <div class="menu-item col-lg-4 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in wings.items track by $index" id="wings-{{$index}}">
             <h4>{{wings.items[$index].item}}</h4>  <span class="price">{{wings.items[$index].price}}</span>
             <p>{{wings.items[$index].description}}</p>
@@ -160,12 +170,15 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="sammyCtrl">
-        <div class="menu-title" data-toggle="collapse" data-target="#sammy-wrapper">
-          <h2>{{sammies.title}}</h2>
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="sammyCtrl">
+        <div class="menu-title"
+              data-toggle="collapse"
+              data-target="#sammy-wrapper">
+          <h2>{{sammies.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
         </div>
 
-        <div class="collapse" id="sammy-wrapper">
+        <div class="collapse"
+              id="sammy-wrapper">
           <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in sammies.items track by $index" id="sammies-{{$index}}">
             <h4>{{sammies.items[$index].item}}</h4>  <span class="price">{{sammies.items[$index].price}}</span>
             <p>{{sammies.items[$index].description}}</p>
@@ -173,12 +186,15 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="burgerCtrl">
-        <div class="menu-title" data-toggle="collapse" data-target="#burger-wrapper">
-          <h2>{{burgers.title}}</h2>
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="burgerCtrl">
+        <div class="menu-title"
+              data-toggle="collapse"
+              data-target="#burger-wrapper">
+          <h2>{{burgers.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
         </div>
 
-        <div class="collapse" id="burger-wrapper">
+        <div class="collapse"
+              id="burger-wrapper">
           <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in burgers.items track by $index" id="burgers-{{$index}}">
             <h4>{{burgers.items[$index].item}}</h4>  <span class="price">{{burgers.items[$index].price}}</span>
             <p>{{burgers.items[$index].description}}</p>
@@ -186,12 +202,15 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="seafoodCtrl">
-        <div class="menu-title" data-toggle="collapse" data-target="#seafood-wrapper">
-          <h2>{{seafood.title}}</h2>
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="seafoodCtrl">
+        <div class="menu-title"
+              data-toggle="collapse"
+              data-target="#seafood-wrapper">
+          <h2>{{seafood.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
         </div>
 
-        <div class="collapse" id="seafood-wrapper">
+        <div class="collapse"
+              id="seafood-wrapper">
           <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in seafood.items track by $index" id="seafood-{{$index}}">
             <h4>{{seafood.items[$index].item}}</h4>  <span class="price">{{seafood.items[$index].price}}</span>
             <p>{{seafood.items[$index].description}}</p>
@@ -199,12 +218,16 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-12 col-md-12 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="dinnerCtrl">
-        <div class="menu-title" data-toggle="collapse" data-target="#dinner-wrapper">
-          <h2>{{dinner.title}}</h2>
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="dinnerCtrl">
+        <div class="menu-title" 
+              data-toggle="collapse"
+              data-toggle="collapse"
+              data-target="#dinner-wrapper">
+          <h2>{{dinner.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
         </div>
 
-        <div class="collapse" id="dinner-wrapper">
+        <div class="collapse"
+              id="dinner-wrapper">
           <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in dinner.items track by $index" id="dinner-{{$index}}">
             <h4>{{dinner.items[$index].item}}</h4>  <span class="price">{{dinner.items[$index].price}}</span>
             <p>{{dinner.items[$index].description}}</p>

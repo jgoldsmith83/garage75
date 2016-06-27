@@ -11,11 +11,12 @@ body {
   margin-bottom: 100px;
 }
 
+
 .navbar-default, .collapse, .navbar-collapse, .navbar-header, .navbar-container-custom, .navbar-brand, .nav-logo-img {
-  z-index: 999;
-  height: 80px;
-  max-height: 80px;
+  height: 90px;
+  max-height: 90px;
 }
+
 
 #full-container {
   margin: 0;
@@ -23,40 +24,42 @@ body {
   padding-bottom: 40px;
 }
 
+/*
 nav {
   width: 100%;
   height: 80px;
   margin: 0;
-  z-index: 999;
+  //z-index: 999;
 }
 
 .nav li {
   //height: 100%;
   //min-height: 100%;
-  z-index: 999;
+  //z-index: 999;
 }
 
 .nav li a {
   //margin-top: 30px;
-  z-index: 999;
+  //z-index: 999;
 }
 
 .form-group input {
   margin-top: 40px;
   color: #585959;
-  z-index: 999;
+  //z-index: 999;
 }
 
 .navbar-nav {
   height: 100px;
   min-height: 100px;
-  z-index: 999;
+ // z-index: 999;
 }
+*/
 
 .nav-logo-img {
   width: 140px;
   height: 60px;
-  z-index: 999
+  //z-index: 999
 }
 
 #logo-wrapper {

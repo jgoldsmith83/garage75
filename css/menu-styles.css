@@ -7,6 +7,10 @@ body {
   background-size: 80% 100%;
 }
 
+#menu-wrapper {
+  margin-top: 20px;
+}
+
 #menu-footer {
   position: relative;
   bottom: 0;
@@ -17,8 +21,20 @@ body {
   //border: 1px solid white;
 }
 
+.menu-title {
+  position: relative;
+  padding: 5px 0 10px 45px;
+  border: 2px solid white;
+  margin-bottom: 20px;
+}
+
 .menu-title:hover {
   cursor: pointer;
+}
+
+.menu-title-icon {
+  float: right;
+  margin-right: 35px;
 }
 
 .menu-item h4 {
@@ -30,6 +46,7 @@ body {
 
 .menu-item {
   display: inline-block;
+  position: relative;
   padding-right: 0;
   min-height: 120px;
   max-height: 120px;
