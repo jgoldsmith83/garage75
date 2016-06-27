@@ -1,7 +1,11 @@
 
 $(document).ready(function() {
   
-  $('.menu-item').css({'opacity':'0'});
+  //set initial values for animations
+  //$('.menu-item').css({'opacity':'0'});
+  //$('.menu-item').css({'margin-left':'0'});
+
+  //$('.collapse').collapse();
 
   //$('.menu-item:even').css({'background-color':'#f9f9f9'});
   //$('.menu-item:even').css({'color':'#585959'});
@@ -17,10 +21,16 @@ $(document).ready(function() {
 
 });
 
+//wait for window to load to avoid browser hangups --
+//not really working all that well but is noticeably better -
+//still working on a better implementation
 $(window).on('load', function() {
 
   $('.menu-item').each(function(index) {
-    $(this).delay(400*index).animate({'opacity':'1'},'slow');
+    //$(this).delay(400*index).animate({'opacity':'1'}, 800);
+    //$(this).animate({'margin-left':'20px'}, 400, 'linear');
   }); 
+
+
 
 });

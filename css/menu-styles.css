@@ -60,11 +60,16 @@ body {
 
 .wings-extra {
   padding-top: 0;
+  max-height: 220px;
 }
 
 .wings-extra h3 {
   margin-top: -5px;
   margin-left: 10px;
+}
+
+#dinner-sides {
+  max-height: 320px;
 }
 
 /* Large desktop */
