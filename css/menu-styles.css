@@ -17,6 +17,10 @@ body {
   //border: 1px solid white;
 }
 
+.menu-title:hover {
+  cursor: pointer;
+}
+
 .menu-item h4 {
   width: 100%;
   background-color: #1a1a1a;
