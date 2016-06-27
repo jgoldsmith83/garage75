@@ -1,5 +1,7 @@
 
 $(document).ready(function() {
+  
+  $('.menu-item').css({'opacity':'0'});
 
   //$('.menu-item:even').css({'background-color':'#f9f9f9'});
   //$('.menu-item:even').css({'color':'#585959'});
@@ -13,4 +15,12 @@ $(document).ready(function() {
   //add some padding to each menu item so they don't all run together
   $('.menu-item').css({'padding':'10px 10px 10px 10px'});
 
-})
+});
+
+$(window).on('load', function() {
+
+  $('.menu-item').each(function(index) {
+    $(this).delay(400*index).animate({'opacity':'1'},'slow');
+  }); 
+
+});
