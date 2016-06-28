@@ -20,17 +20,3 @@ $(document).ready(function() {
   $('.menu-item').css({'padding':'10px 10px 10px 10px'});
 
 });
-
-//wait for window to load to avoid browser hangups --
-//not really working all that well but is noticeably better -
-//still working on a better implementation
-$(window).on('load', function() {
-
-  $('.menu-item').each(function(index) {
-    //$(this).delay(400*index).animate({'opacity':'1'}, 800);
-    //$(this).animate({'margin-left':'20px'}, 400, 'linear');
-  }); 
-
-
-
-});

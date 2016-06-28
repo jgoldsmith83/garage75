@@ -23,9 +23,10 @@ body {
 
 .menu-title {
   position: relative;
-  padding: 5px 0 10px 45px;
+  padding: 15px 5px 15px 45px;
   border: 2px solid white;
   margin-bottom: 20px;
+  //background-color: #182943;
 }
 
 .menu-title:hover {
@@ -35,6 +36,25 @@ body {
 .menu-title-icon {
   float: right;
   margin-right: 35px;
+  margin-top: 20px;
+}
+
+.rotated {
+  transition: 0.5s linear;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+}
+
+.non-rotated {
+  transition: 0.5s linear;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+}
+
+.menu-title h2 {
+  margin-top: 45px;
 }
 
 .menu-item h4 {

@@ -90,11 +90,12 @@
     <!-- BEGIN FOOD MENU -->
     <div class="row-fluid" id="menu-wrapper">
 
-      <div class="menu-group col-lg-11 col-md-11 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="startersCtrl">
-        <div class="menu-title" 
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="startersCtrl">
+        <div class="menu-title"
+             ng-click="rotateIcon()"
              data-toggle="collapse"
              data-target="#starter-wrapper">
-          <h2>{{starters.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2> 
+          <h2>{{starters.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2> 
         </div>
 
         <div class="collapse" id="starter-wrapper">
@@ -107,11 +108,12 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-11 col-md-11 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="flatbreadsCtrl">
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="flatbreadsCtrl">
       <div class="menu-title"
+           ng-click="rotateIcon()"
            data-toggle="collapse"
            data-target="#flatbread-wrapper">
-          <h2>{{flatbreads.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
+          <h2>{{flatbreads.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>
         </div>
 
         <div class="collapse" id="flatbread-wrapper">
@@ -124,11 +126,12 @@
         </div>
       </div>
 
-      <div class="menu-group col-lg-11 col-md-11 col-sm-11 col-xs-11 col-lg-offset-1 col-md-offset-1" ng-controller="saladsCtrl">
-        <div class="menu-title" 
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="saladsCtrl">
+        <div class="menu-title"
+             ng-click="rotateIcon()"
              data-toggle="collapse"
              data-target="#salad-wrapper">
-          <h2>{{salads.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
+          <h2>{{salads.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>
         </div>
 
         <div class="collapse"
@@ -151,9 +154,10 @@
 
       <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="wingsCtrl">
         <div class="menu-title" 
+             ng-click="rotateIcon()"
               data-toggle="collapse"
               data-target="#wings-wrapper">
-          <h2>{{wings.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
+          <h2>{{wings.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>
         </div>
 
         <div class="collapse"
@@ -172,9 +176,10 @@
 
       <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="sammyCtrl">
         <div class="menu-title"
+             ng-click="rotateIcon()"
               data-toggle="collapse"
               data-target="#sammy-wrapper">
-          <h2>{{sammies.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
+          <h2>{{sammies.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>
         </div>
 
         <div class="collapse"
@@ -188,9 +193,10 @@
 
       <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="burgerCtrl">
         <div class="menu-title"
+             ng-click="rotateIcon()"
               data-toggle="collapse"
               data-target="#burger-wrapper">
-          <h2>{{burgers.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
+          <h2>{{burgers.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>
         </div>
 
         <div class="collapse"
@@ -204,9 +210,10 @@
 
       <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="seafoodCtrl">
         <div class="menu-title"
+             ng-click="rotateIcon()"
               data-toggle="collapse"
               data-target="#seafood-wrapper">
-          <h2>{{seafood.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
+          <h2>{{seafood.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>
         </div>
 
         <div class="collapse"
@@ -220,10 +227,11 @@
 
       <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="dinnerCtrl">
         <div class="menu-title" 
+             ng-click="rotateIcon()"
               data-toggle="collapse"
               data-toggle="collapse"
               data-target="#dinner-wrapper">
-          <h2>{{dinner.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon"></span></h2>
+          <h2>{{dinner.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>
         </div>
 
         <div class="collapse"
