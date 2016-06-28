@@ -229,7 +229,6 @@
         <div class="menu-title" 
              ng-click="rotateIcon()"
               data-toggle="collapse"
-              data-toggle="collapse"
               data-target="#dinner-wrapper">
           <h2>{{dinner.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>
         </div>
@@ -244,6 +243,102 @@
           <div class="menu-item col-lg-6 col-md-6 col-sm-11 col-xs-12" id="dinner-sides">
             <h4>{{sides.title}}</h4>  <span class="price">{{sides.price1}}</span> <span class="price">{{sides.price2}}</span>
             <p>{{sides.items}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="drinkCtrl">
+        <div class="menu-title"
+             ng-click="rotateIcon()"
+             data-toggle="collapse"
+             data-target="#beer-wrapper">
+          <h2>{{beer.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>   
+        </div>
+
+        <div class="collapse"
+              id="beer-wrapper">
+          <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in beer.drinks track by $index" id="beer-{{$index}}">
+            <h4>{{beer.drinks[$index].drink}}</h4> <span class="price">{{beer.drinks[$index].price}}</span>
+            <p>{{beer.drinks[$index].description}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="drinkCtrl">
+        <div class="menu-title"
+             ng-click="rotateIcon()"
+             data-toggle="collapse"
+             data-target="#cocktails-wrapper">
+          <h2>{{cocktails.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>   
+        </div>
+
+        <div class="collapse"
+              id="cocktails-wrapper">
+          <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in cocktails.drinks track by $index" id="cocktails-{{$index}}">
+            <h4>{{cocktails.drinks[$index].drink}}</h4> <span class="price">{{cocktails.drinks[$index].price}}</span>
+            <p>{{cocktails.drinks[$index].description}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="drinkCtrl">
+        <div class="menu-title"
+             ng-click="rotateIcon()"
+             data-toggle="collapse"
+             data-target="#bottles-wrapper">
+          <h2>{{bottles.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>   
+        </div>
+
+        <div class="collapse"
+              id="bottles-wrapper">
+          <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in bottles.drinks track by $index" id="bottles-{{$index}}">
+            <h4>{{bottles.drinks[$index].drink}}</h4> <span class="price">{{bottles.drinks[$index].price}}</span>
+            <p>{{bottles.drinks[$index].description}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="drinkCtrl">
+        <div class="menu-title"
+             ng-click="rotateIcon()"
+             data-toggle="collapse"
+             data-target="#cans-wrapper">
+          <h2>{{cans.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>   
+        </div>
+
+        <div class="collapse"
+              id="cans-wrapper">
+          <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in cans.drinks track by $index" id="cans-{{$index}}">
+            <h4>{{cans.drinks[$index].drink}}</h4> <span class="price">{{cans.drinks[$index].price}}</span>
+            <p>{{cans.drinks[$index].description}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-group col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ng-controller="drinkCtrl">
+        <div class="menu-title"
+             ng-click="rotateIcon()"
+             data-toggle="collapse"
+             data-target="#wine-wrapper">
+          <h2>{{wine.title}} <span class="glyphicon glyphicon-menu-down menu-title-icon non-rotated"></span></h2>   
+        </div>
+
+        <div class="collapse"
+              id="wine-wrapper">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h3>Reds</h3>
+            <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in wine.reds track by $index" id="red-{{$index}}">
+              <h4>{{wine.reds[$index].wine}}</h4> <span class="price">{{wine.reds[$index].price}}</span>
+              <p>{{wine.reds[$index].description}}</p>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h3>Whites</h3>
+            <div class="menu-item col-lg-3 col-md-4 col-sm-10 col-xs-11" ng-repeat="x in wine.whites track by $index" id="white-{{$index}}">
+              <h4>{{wine.whites[$index].wine}}</h4> <span class="price">{{wine.whites[$index].price}}</span>
+              <p>{{wine.whites[$index].description}}</p>
+            </div>
           </div>
         </div>
       </div>

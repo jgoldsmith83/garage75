@@ -115,6 +115,14 @@ body {
   max-height: 320px;
 }
 
+#cans-1 {
+  max-height: 310px;
+}
+
+#cans-1 .price {
+  margin-top: 140px;
+}
+
 /* Large desktop */
 @media (min-width: 1200px) { ... }
  

@@ -126,8 +126,25 @@ app.controller('dinnerCtrl', function($scope) {
 
 });
 
-app.controller("drinkMenuCtrl", function($scope) {
+app.controller('drinkCtrl', function($scope) {
 
-  //coming soon
+  $scope.beer = drink_menu[0];
+
+  $scope.cocktails = drink_menu[1];
+
+  $scope.bottles = drink_menu[2];
+
+  $scope.cans = drink_menu[3];
+
+  $scope.wine = drink_menu[4];
+
+  $scope.rotateIcon = function($event) {
+
+    $(event.currentTarget)
+    .children('h2')
+    .children('.glyphicon')
+    .toggleClass('non-rotated')
+    .toggleClass('rotated');
+  }
 
 });

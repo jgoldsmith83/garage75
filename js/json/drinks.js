@@ -142,12 +142,14 @@ drink_menu = [
     "title": "Oil Cans",
     "drinks": [
       {
-        "drink": "Tecate, Milwaukee Best Ice, Busch Light",
-        "price": "$2.50"
+        "drink": "The Cheap Stuff",
+        "price": "$2.50",
+        "description": "Tecate, Milwaukee Best Ice, Busch Light"
       },
       {
-        "drink": "Coast BlackBeard, Green Man Wayfare IPA, Hi Wire Gose, Hi Wire Lager, HC Pluff Mud Porter, Oskar Ten Fidy Stout, Palmetto Pilsner, WB Gose, WB White Tai, WB One Claw IPA, Shotgun Betty Hefe, Stone Arrogant Bastard Ale, Unknown Silverback, Stout, Victory Golden Monkey",
-        "price": "$5"
+        "drink": "The Good Stuff",
+        "price": "$5",
+        "description": "Coast BlackBeard, Green Man Wayfare IPA, Hi Wire Gose, Hi Wire Lager, HC Pluff Mud Porter, Oskar Ten Fidy Stout, Palmetto Pilsner, WB Gose, WB White Tai, WB One Claw IPA, Shotgun Betty Hefe, Stone Arrogant Bastard Ale, Unknown Silverback, Stout, Victory Golden Monkey"
       }
     ]
   },
