@@ -78,6 +78,8 @@ body {
 
 .salads-extras-container {
   background-color: #182943;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 1px #000;
 }
 
 .salad-item-extra {
