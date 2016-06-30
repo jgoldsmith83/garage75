@@ -121,20 +121,24 @@ drink_menu = [
         "price": "$7.50"
       },
       {
-        "drink": "Budweiser, Bud Light, Coors Light, Miller Light",
-        "price": "$3.25"
+        "drink": "Domestics",
+        "price": "$3.25",
+        "description": "Budweiser, Bud Light, Coors Light, Miller Light"
       },
       {
-        "drink": "Ultra",
-        "price": "$3.50"
+        "drink": "Imports",
+        "price": "$4.25",
+        "description": "Amstel Light, Corona, Corona Light, Heineken"
       },
       {
-        "drink": "Amstel Light, Corona, Corona Light, Heineken",
-        "price": "$4.25"
+        "drink": "Calorie Savers",
+        "price": "$3.50",
+        "description": "Michelob Ultra"
       },
       {
-        "drink": "Angry Orchard, Mckenzie Cider, Stiegl Radler, NY Father Rootbeer",
-        "price": "$5"
+        "drink": "Easy Riders",
+        "price": "$5",
+        "description": "Angry Orchard, Mckenzie Cider, Stiegl Radler, NY Father Rootbeer"
       }
     ]
   },

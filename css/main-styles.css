@@ -17,9 +17,14 @@ body {
 }
 
 
-.navbar-default, .collapse, .navbar-collapse, .navbar-header, .navbar-container-custom, .navbar-brand, .nav-logo-img {
-  height: 90px;
-  max-height: 90px;
+.navbar-default, .collapse, .navbar-collapse, .navbar-header, .navbar-container-custom, .navbar-brand {
+  min-height: 90px;
+  //max-height: 90px;
+}
+
+.li-logo {
+  width: 55px;
+  height: 27.5px;
 }
 
 
@@ -164,10 +169,20 @@ footer{
 
 
 /* Large desktop */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+  .navbar-nav li a {
+  padding-top: 55px;
+  padding-bottom: -5px;
+}
+}
  
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { ... }
+@media (min-width: 768px) and (max-width: 979px) {
+  .navbar-nav li a {
+  padding-top: 55px;
+  padding-bottom: -5px;
+}
+}
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { ... }
