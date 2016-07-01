@@ -2,38 +2,38 @@ var food_extras = {
   "salad": [
     {
       "extra_title": "Greens:",
-      "options": "romaine, iceburg, spinach, seasonal greens"
+      "options": "Romaine, Iceburg, Spinach or Seasonal greens"
     },
     {
       "extra_title": "Cheese:",
-      "options": "(choose one) parmesan, mozzarella, feta, cheddar, blue cheese crumbles,",
+      "options": "(choose one) Parmesan, Mozzarella, Feta, Cheddar or Blue cheese crumbles,",
     },
     {
       "extra_title": "Toppings:",
-      "options": "(choose three) carrots, cucumber, grape tomaoes, dried cranberrys, celery, olive, peppercini, pickled green beans, red onion, picked jalapenos, croutons, red apples, grapes, green peppers, artichoke heart, sliced mushrooms: extra $1"
+      "options": "(choose three) Carrots, Cucumber, Grape tomaoes, Dried cranberrys, Celery, Olives, Peppercini, Pickled green beans, Red onion, Picked jalapenos, Croutons, Red apples, Grapes, Green peppers, Artichoke hearts, sliced mushrooms: extra $1"
     },
     {
       "extra_title": "Protein",
-      "options": "fried chicken, roasted chicken, grilled shrimp, grilled mahi, seared flank steak, fried oyster, bacon & roasted chicken salad: add on $4"
+      "options": "Fried chicken, Roasted chicken, Grilled shrimp, Grilled mahi, Seared flank steak, Fried oyster, Bacon & roasted chicken salad: add on $4"
     },
     {
       "extra_title": "Dressing",
-      "options": "honey mustard, ranch, blue cheese, caesar, greek, italian, thousand Island, signuture salad dressing"
+      "options": "Honey mustard, Ranch, Blue cheese, Cesar, Greek, Italian, Thousand Island or Our signuture salad dressing"
     }
   ],
   "wings": [
     {
-      "flavors": "mild, hot, Carolina Reeper, teriyaki, Reeper-yaki, lemon pepper, dry ranch, garlic parmesan, honey bbq, Thai chili, Sriracha honey, Caribbean jerk, honey mustard w/ carrots & celery, ranch or bleu cheese"
+      "flavors": "Mild, Hot, Carolina Reaper, Teriyaki, Reaper-yaki, Lemon pepper, Dry ranch, Garlic parmesan, Honey BBQ, Thai chili, Sriracha honey, Caribbean jerk, Honey mustard. Served w/ carrots & celery, ranch or bleu cheese"
     }
   ],
   "burgers": [
     {
       "extra_title": "Cheese:",
-      "options": "American, blue cheese, queso, mozzarella, munster, pimento, cheddar"
+      "options": "American, Blu cheese, Queso, Mozzarella, Munster, Pimento, Cheddar"
     },
     {
       "extra_title": "Toppings/Sauces:",
-      "options": "Bacon, fried egg, honey ham, peach bacon habenero jam, grilled onions, grilled peppers, capicola, grilled mushooms, pickled jalapenos, honey-sriracha, honey BBQ, chipolte sauce"
+      "options": "Bacon, Fried egg, Honey ham, Peach bacon habenero jam, Grilled onions, Grilled peppers, Capicola, Grilled mushooms, Pickled jalapenos, Honey-sriracha, Honey BBQ, Chipolte sauce"
     }
   ]
 }

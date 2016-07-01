@@ -80,27 +80,27 @@ var food_menu = [
       {
         "item": "Low Country",
         "price": "$8",
-        "description": "peach bacon habanero jam, carmalized onions, mozzarella, asparagus, pork cracklin"
+        "description": "Peach bacon habanero jam, Carmalized Onions, Mozzarella, Asparagus, pork cracklin"
       },
       {
         "item": "Shrimp & Spinach",
         "price": "$8",
-        "description": "garlic olive oil, grilled shrimp, spinach, roasted tomatoes"
+        "description": "Garlic olive oil, Grilled shrimp, Spinach, Roasted tomatoes"
       },
       {
         "item": "Four Cheese Pepperoni",
         "price": "$8",
-        "description": "red sauce, mozzarella, feta, parmesan, cheddar, pepperoni, basil"
+        "description": "Red sauce, Mozzarella, Feta, Parmesan, Cheddar, Pepperoni, Basil"
       },
       {
         "item": "Roasted Chicken",
         "price": "$8",
-        "description": "bama white sauce, roasted chicken, mozzarella, pork cracklin"
+        "description": "Bama white sauce, Roasted chicken, Mozzarella, Pork cracklin"
       },
       {
         "item": "Pork Belly",
         "price": "$8",
-        "description": "mint cilantro pistachio pesto, pork belly, feta whipped cream cheese"
+        "description": "Mint cilantro pistachio pesto, Pork belly, Feta whipped cream cheese"
       }
     ]
   },
@@ -110,22 +110,22 @@ var food_menu = [
       {
         "item": "Garage",
         "price": "$4",
-        "description": "iceberg, cherry tomatoes, cucumbers, red onion, cheddar, croutons"
+        "description": "Iceberg, Cherry tomatoes, Cucumbers, Red onion, Cheddar, Croutons"
       },
       {
         "item": "Black and Blue Wedge",
         "price": "$9",
-        "description": "iceberg, cherry tomatoes, bleu cheese crumbles, cracked pepper, sliced blackened flank steak"
+        "description": "Iceberg, Cherry tomatoes, Bleu cheese crumbles, Cracked pepper, Sliced blackened flank steak"
       },
       {
         "item": "Crab Cake Ceasar",
         "price": "$10",
-        "description": "romaine, parmesan, cracked pepper, croutons, Caesar dressing, crab cake"
+        "description": "Romaine, Parmesan, Cracked pepper, Croutons, Caesar dressing, Crab cake"
       },
       {
         "item": "Classic Built Salad",
         "price": "$7",
-        "description": "build your own salad to your specs"
+        "description": "Build your own salad to your specs."
       }
     ]
   },
@@ -135,12 +135,12 @@ var food_menu = [
       {
         "item": "6 Wings",
         "price": "$6.50",
-        "description": "one flavor"
+        "description": "One flavor"
       },
       {
         "item": "12 Wings",
         "price": "$11",
-        "description": "two flavors"
+        "description": "Two flavors"
       }
     ]
   },
@@ -150,17 +150,17 @@ var food_menu = [
       {
         "item": "G75 Donar Kebab",
         "price": "$12",
-        "description": "roastedchicken, salami, lettuce, cabbage, onion, roasted tomatos, G75 pickles, roasted garlic yogurt sauce, rolled naan"
+        "description": "Roasted chicken, Salami, Lettuce, Cabbage, Onion, Roasted tomatos, G75 pickles, Roasted garlic yogurt sauce, Rolled naan"
       },
       {
         "item": "Brat Dog",
         "price": "$8",
-        "description": "bratwurst, spicy mustard, saurkraut"
+        "description": "Bratwurst, Spicy mustard, Saurkraut"
       },
       {
         "item": "Roasted Chicken Salad Croissant",
         "price": "$8",
-        "description": "grape, pecan, cranberry, celery, spinach, cherry tomato"
+        "description": "Grape, pecan, cranberry, celery, spinach, cherry tomato"
       },
       {
         "item": "Ham and Cheese Croissant",
