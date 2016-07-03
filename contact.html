@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="garage75">
 <head>
-  <title>Garage75</title>
-
+  <title>Garage 75 | Kitchen &amp; Arcade</title>
+  
+  <link rel="icon" 
+      type="image/png" 
+      href="images/piston.ico">
+      
   <meta charset="utf-8">
   <meta name="author" content="Justin Goldsmith">
   <link rel="canonical" href="http://www.garage75.com">
@@ -30,6 +34,7 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/main-styles.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
   <link rel="stylesheet" type="text/css" href="css/event-special-styles.css">
 
   <!-- UTILITY JS FILES -->
@@ -84,19 +89,42 @@
       <!-- END NAVBAR -->
 
      <div class="container-fluid" id="menu-placeholder">
+        <!--
         <p id="coming-soon">
           Our contact page is in the works. Please check back in a few days.
         </p>
-     </div>
+        -->
+
+        <div class="container col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-offset-4 col-md-offset-4">
+
+            <a href="tel: +1-843-225-4030">
+              <div class="contact-title">
+                <h2>Call Us <span class="glyphicon glyphicon-menu-right"></span></h2>
+              </div>
+            </a>
+
+            <a href="mailto: info@garage75.com">
+              <div class="contact-title">
+                <h2>Email Us <span class="glyphicon glyphicon-menu-right"></span></h2>
+              </div>
+            </a>
+
+            <a href="http://maps.google.com/maps?q=1175+Folly+Rd,+Charleston,+SC+29412">
+              <div class="contact-title">
+                <h2>Find Us <span class="glyphicon glyphicon-menu-right"></span></h2>
+              </div>
+            </a>
+
+        </div>
     </div>
 
   </div> <!-- END BODY CONTAINER -->
 
   <!-- BEGIN FOOTER -->
-    <div class="row-fluid footer-wrapper">
-      <footer class="page-footer" id="menu-footer">
-        <p id="tag"><span id="sour-dog">Sourdog Media</span> | <span id="dot-slash">DotSlashDesign</span></p>
-        <p id="g75-info">Garage 75<br>1175 Folly Rd, Suite G : Charleston, SC 29412 <br> 843.225.4030</p>
+    <div class="row-fluid footer-wrapper" id="footer">
+      <footer class="page-footer container" id="menu-footer">
+       <p id="g75-info">Garage 75<br>1175 Folly Rd, Suite G : Charleston, SC 29412 <br> 843.225.4030</p>
+       <p id="tag"><span id="sour-dog">Powered By <a href="http://www.sourdogmedia.com">Sourdog Media</a></span></p>
       </footer>
     </div>
     <!-- END FOOTER -->
