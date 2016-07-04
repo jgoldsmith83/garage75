@@ -145,12 +145,12 @@ var food_menu = [
     ]
   },
   {
-    "title": "Off Road Sanwiches",
+    "title": "Off Road Sandwiches",
     "items": [
       {
         "item": "G75 Donar Kebab",
         "price": "$12",
-        "description": "Roasted chicken, Salami, Lettuce, Cabbage, Onion, Roasted tomatos, G75 pickles, Roasted garlic yogurt sauce, Rolled naan"
+        "description": "Roasted chicken, Salami, Lettuce, Cabbage, Onion, Roasted tomatoes, G75 pickles, Roasted garlic yogurt sauce, Rolled naan"
       },
       {
         "item": "Brat Dog",

@@ -2,7 +2,7 @@ var food_extras = {
   "salad": [
     {
       "extra_title": "Greens:",
-      "options": "Romaine, Iceburg, Spinach or Seasonal greens"
+      "options": "Romaine, Iceberg, Spinach or Seasonal greens"
     },
     {
       "extra_title": "Cheese:",
@@ -10,7 +10,7 @@ var food_extras = {
     },
     {
       "extra_title": "Toppings:",
-      "options": "(choose three) Carrots, Cucumber, Grape tomaoes, Dried cranberrys, Celery, Olives, Peppercini, Pickled green beans, Red onion, Picked jalapenos, Croutons, Red apples, Grapes, Green peppers, Artichoke hearts, sliced mushrooms: extra $1"
+      "options": "(choose three) Carrots, Cucumber, Grape tomatoes, Dried cranberries, Celery, Olives, Peppercini, Pickled green beans, Red onion, Picked jalapenos, Croutons, Red apples, Grapes, Green peppers, Artichoke hearts, sliced mushrooms: extra $1"
     },
     {
       "extra_title": "Protein",
@@ -33,7 +33,7 @@ var food_extras = {
     },
     {
       "extra_title": "Toppings/Sauces:",
-      "options": "Bacon, Fried egg, Honey ham, Peach bacon habenero jam, Grilled onions, Grilled peppers, Capicola, Grilled mushooms, Pickled jalapenos, Honey-sriracha, Honey BBQ, Chipolte sauce"
+      "options": "Bacon, Fried egg, Honey ham, Peach bacon habenero jam, Grilled onions, Grilled peppers, Capicola, Grilled mushooms, Pickled jalapenos, Honey-sriracha, Honey BBQ, Chipotle sauce"
     }
   ]
 }

@@ -1,0 +1,30 @@
+.btn {
+  margin-left: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+#menu-placeholder {
+  padding-top: 40px;
+}
+
+.contact-title {
+  position: relative;
+  padding: 5px 5px 15px 25px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(24, 41, 67, 0.4);
+}
+
+.contact-title span {
+  float: right;
+  margin-right: 40px;
+}
+
+a:link, a:hover, a:active, a:visited {
+  color: #fff;
+  text-decoration: none;
+}

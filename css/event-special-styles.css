@@ -7,14 +7,14 @@ body {
   background-size: 80% 100%;
 }
 
-#menu-placeholder {
-  margin-left: 33%;
-  margin-top: 20%;
-}
-
 #menu-footer {
   position: fixed;
   bottom: 0;
+}
+
+#events-placeholder {
+  margin-top: 300px;
+  text-align: center;
 }
 
 /* Large desktop */
