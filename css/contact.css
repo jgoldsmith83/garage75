@@ -28,3 +28,8 @@ a:link, a:hover, a:active, a:visited {
   color: #fff;
   text-decoration: none;
 }
+
+#menu-footer a {
+   color: #3aa8c1;
+}
+
