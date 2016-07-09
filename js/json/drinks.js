@@ -200,7 +200,7 @@ drink_menu = [
       {
         "wine": "MDZ",
         "price": "$7",
-        "description": "Malbec 201"
+        "description": "Malbec 2013"
       }
     ]
   }
