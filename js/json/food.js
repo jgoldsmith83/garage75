@@ -1,21 +1,21 @@
 var food_menu = [
   {
-    "title": "First Gear Starters",
+    "title": "First Gear_Starters",
     "items": [
       {
-        "item": "G75 Wings",
-        "price": "$9",
-        "description": "Six breaded jumbo wings served w/ warm chipotle sauce"
+        "item": "G-75 Wings",
+        "price": "$8",
+        "description": "five breaded jumbo wings served w/ warm chipotle sauce"
       },
       {
         "item": "Salty Boiled Peanuts",
-        "price": "$4",
+        "price": "$3",
         "description": "Southern style boiled peanuts"
       },
       {
-        "item": "Bag o' Chips",
+        "item": "G-75 Chips",
         "price": "$4",
-        "description": "Dry seasoned chips: BBQ, salt & vinegar, or chili cheese"
+        "description": "Dry seasoned: BBQ, salt & vinegar, or chili cheese"
       },
       {
         "item": "Bag o' Jerk",
@@ -35,7 +35,7 @@ var food_menu = [
       {
         "item": "Mini Corndogs",
         "price": "$5",
-        "description": "Two mini dogs served w/ spicy mustard"
+        "description": "Two house battered dogs, served w/ yellow mustard"
       },
       {
         "item": "Fried Summer Squash",
@@ -44,28 +44,28 @@ var food_menu = [
       },
       {
         "item": "Cold Crab Dip",
-        "price": "$8",
+        "price": "$9",
         "description": "Served w/ Ritz crackers"
       },
       {
         "item": "Fried Oysters",
         "price": "$9",
-        "description": "Served w/ our cajun garlic ailoli"
+        "description": "Served w/ cajun cream sauce"
       },
       {
         "item": "Loaded Scottish Nachos",
-        "price": "$9",
+        "price": "$10",
         "description": "Fresh fried potato chips covered in queso cheese, pickled jalapenos, romaine, tomatoes, corned beef & saurkrat"
       },
       {
-        "item": "Jalapeno Bacon Mac & Cheese Skillet",
+        "item": "Honey Ham Mac & Cheese Skillet",
         "price": "$8",
-        "description": "Pickled jalapeno, bacon, cheesy mac and cheese"
+        "description": "Honey ham, cheesy mac and cheese"
       },
       {
-        "item": "Tenders better be Tender",
+        "item": "Tenders Better Be Tender",
         "price": "$8",
-        "description": "Served with honey mustard"
+        "description": "Served w/ honey mustard"
       },
       {
         "item": "Chicken Ques O dilla",
@@ -75,41 +75,41 @@ var food_menu = [
     ]
   },
   {
-    "title": "Flat Tire Flatbreads",
+    "title": "Flat Tire_Flat Breads",
     "items": [
       {
         "item": "Low Country",
-        "price": "$8",
+        "price": "$9",
         "description": "Peach bacon habanero jam, Carmalized Onions, Mozzarella, Asparagus, pork cracklin"
       },
       {
-        "item": "Shrimp & Spinach",
-        "price": "$8",
-        "description": "Garlic olive oil, Grilled shrimp, Spinach, Roasted tomatoes"
-      },
-      {
         "item": "Four Cheese Pepperoni",
-        "price": "$8",
+        "price": "$9",
         "description": "Red sauce, Mozzarella, Feta, Parmesan, Cheddar, Pepperoni, Basil"
       },
       {
         "item": "Roasted Chicken",
-        "price": "$8",
+        "price": "$9",
         "description": "Bama white sauce, Roasted chicken, Mozzarella, Pork cracklin"
       },
       {
         "item": "Pork Belly",
-        "price": "$8",
+        "price": "$9",
         "description": "Mint cilantro pistachio pesto, Pork belly, Feta whipped cream cheese"
-      }
+      },
+       {
+        "item": "Garden",
+        "price": "$9",
+        "description": "chick peas, brussel leaves, mozzarella, pecans, arugula, grape tomatoes"
+      }     
     ]
   },
   {
-    "title": "Hybrid Salads",
+    "title": "Hybrid_Salads",
     "items": [
       {
         "item": "Garage",
-        "price": "$4",
+        "price": "$5",
         "description": "Iceberg, Cherry tomatoes, Cucumbers, Red onion, Cheddar, Croutons"
       },
       {
@@ -124,17 +124,17 @@ var food_menu = [
       },
       {
         "item": "Classic Built Salad",
-        "price": "$7",
+        "price": "$6",
         "description": "Build your own salad to your specs."
       }
     ]
   },
   {
-    "title": "WingMan",
+    "title": "Wing_Man",
     "items": [
       {
         "item": "6 Wings",
-        "price": "$6.50",
+        "price": "$6.5",
         "description": "One flavor"
       },
       {
@@ -145,11 +145,11 @@ var food_menu = [
     ]
   },
   {
-    "title": "Off Road Sandwiches",
+    "title": "Off Road_Sandwiches",
     "items": [
       {
-        "item": "G75 Donar Kebab",
-        "price": "$12",
+        "item": "G-75 Doner Kebab",
+        "price": "$10",
         "description": "Roasted chicken, Salami, Lettuce, Cabbage, Onion, Roasted tomatoes, G75 pickles, Roasted garlic yogurt sauce, Rolled naan"
       },
       {
@@ -159,26 +159,21 @@ var food_menu = [
       },
       {
         "item": "Roasted Chicken Salad Croissant",
-        "price": "$8",
+        "price": "$9",
         "description": "Grape, pecan, cranberry, celery, spinach, cherry tomato"
       },
       {
         "item": "Ham and Cheese Croissant",
-        "price": "$8",
+        "price": "$9",
         "description": "honey ham, muenster, yellow mustard, dukes"
       },
       {
         "item": "Crab Cake BLT Croissant",
-        "price": "$9",
+        "price": "$10",
         "description": "bacon, arugula, tomato, garlic ailoli"
       },
       {
-        "item": "Hot Fried Chicken Sandwich",
-        "price": "$8",
-        "description": "fried chicken, n-ville hot sauce, white bread, G75 pickles"
-      },
-      {
-        "item": "Philly Chez",
+        "item": "Philly Cheez",
         "price": "$9",
         "description": "thinly slice steak or chicken, onion, peppers, queso"
       },
@@ -193,14 +188,19 @@ var food_menu = [
         "description": "capicola, pepperoni, salami, provolone, banana pepper, lettuce, salt, pepper, oil, vinegar"
       },
       {
-        "item": "Blackened Mahi",
-        "price": "$11",
-        "description": "grilled mahi"
+        "item": "Roasted Pork Bahn Mi",
+        "price": "$9",
+        "description": "slow roasted pork, garlic aioli, pickled cabbage & onion"
       },
       {
-        "item": "Pork Bahn Mi",
-        "price": "$9",
-        "description": "roasted pork"
+        "item": "Grilled Eggplant",
+        "price": "$8",
+        "description": "marinated, grilled, gruyere, argula, mint cilantro, pistachio pesto on sourdough"
+      },
+      {
+        "item": "NashVegas Sandwich",
+        "price": "$8",
+        "description": "fried chicken, n-ville hot sauce, white bread, G75 pickles"
       }
     ]
   },
@@ -209,7 +209,7 @@ var food_menu = [
     "items": [
       {
         "item": "Big Ern",
-        "price": "$7",
+        "price": "$8",
         "description": "8 oz patty, American cheese, bacon, Dukes mayo, LTO"
       },
       {
@@ -220,53 +220,53 @@ var food_menu = [
     ]
   },
   {
-    "title": "Oil Station",
+    "title": "Off_the_Boat",
     "items": [
       {
         "item": "Fried Shrimp",
-        "price": "$9",
-        "description": "golden fried lowcountry shrimp"
+        "price": "11",
+        "description": ""
       },
       {
         "item": "Fried Oysters",
-        "price": "$9",
-        "description": "deep fried, locally harvested"
+        "price": "$15",
+        "description": ""
       },
       {
         "item": "Fried Flounder",
-        "price": "$9",
-        "description": "deep fried bottom feeder"
+        "price": "$10",
+        "description": ""
       },
       {
-        "item": "Trio",
+        "item": "Choose two",
         "price": "$14",
-        "description": "a portion of each of our best sea meat"
+        "description": ""
       }
     ]
   },
   {
-    "title": "Dinner",
+    "title": "Monster Truck_Dinner",
     "items": [
       {
-        "item": "Garage Strip",
-        "price": "$16",
-        "description": "12oz wilted seasonal greens, summer squash, tallo fried potato wedge"
+        "item": "Garage Ribeye",
+        "price": "$14",
+        "description": "12oz ribeye, tallow fried potato wedges, salad"
+      },
+      {
+        "item": "Hot Fried Chicken",
+        "price": "$14",
+        "description": "fried chicken, n-ville hot sauce, white bread, Duke's mayo, G-75 pickles, skillet mac, garage slaw"
       },
       {
         "item": "G75 Dry Aged New York Strip",
-        "price": "$24",
-        "description": "16oz bone-in 32 day G75 locker aged, wilted seasonal greens, summer squash, tallo fried potato wedge"
-      },
-      {
-        "item": "Southern Fried Chicken",
-        "price": "$14",
-        "description": "skillet mac, garage slaw, tallo potato wedge"
+        "price": "$28",
+        "description": "16oz bone-in 32 day G75 locker aged, tallow fried potato wedges, salad"
       }
     ]
   },
   {
     "title": "Sidecar Sides",
-    "items": "onion rings, grilled aspragus, roasted brussel sprouts, garage slaw (bacon blue cheese), skillet mac and cheese, tallo fried potato wedges",
+    "items": "onion rings, grilled aspragus, roasted brussel sprouts, garage slaw (bacon blue cheese), skillet mac and cheese, tallo fried potato wedges, side salad",
     "price1": "sides $4",
     "price2": "add-on $2"
   }
