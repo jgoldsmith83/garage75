@@ -5,7 +5,7 @@ var food_menu = [
       {
         "item": "G-75 Wings",
         "price": "$8",
-        "description": "five breaded jumbo wings served w/ warm chipotle sauce"
+        "description": "Five breaded jumbo wings served w/ warm chipotle sauce"
       },
       {
         "item": "Salty Boiled Peanuts",
@@ -17,11 +17,11 @@ var food_menu = [
         "price": "$4",
         "description": "Dry seasoned: BBQ, salt & vinegar, or chili cheese"
       },
-      {
-        "item": "Bag o' Jerk",
-        "price": "$6",
-        "description": "Teriyaki, Ghost pepper, or Cracked pepper"
-      },
+      // {
+      //   "item": "Bag o' Jerk",
+      //   "price": "$6",
+      //   "description": "Teriyaki, Ghost pepper, or Cracked pepper"
+      // },
       {
         "item": "Pickled Fries",
         "price": "$6",
@@ -37,11 +37,11 @@ var food_menu = [
         "price": "$5",
         "description": "Two house battered dogs, served w/ yellow mustard"
       },
-      {
-        "item": "Fried Summer Squash",
-        "price": "$7",
-        "description": "Served w/ jalapeno ranch"
-      },
+      // {
+      //   "item": "Fried Summer Squash",
+      //   "price": "$7",
+      //   "description": "Served w/ jalapeno ranch"
+      // },
       {
         "item": "Cold Crab Dip",
         "price": "$9",
@@ -55,7 +55,7 @@ var food_menu = [
       {
         "item": "Loaded Scottish Nachos",
         "price": "$10",
-        "description": "Fresh fried potato chips covered in queso cheese, pickled jalapenos, romaine, tomatoes, corned beef & saurkrat"
+        "description": "Fresh fried potato chips covered in queso cheese, pickled jalapenos, romaine, tomatoes, corned beef & G75 kraut"
       },
       {
         "item": "Honey Ham Mac & Cheese Skillet",
@@ -66,12 +66,12 @@ var food_menu = [
         "item": "Tenders Better Be Tender",
         "price": "$8",
         "description": "Served w/ honey mustard"
-      },
-      {
-        "item": "Chicken Ques O dilla",
-        "price": "$9",
-        "description": "Roasted chicken, cheddar, queso served with queso"
       }
+      // { !--Remember to add , after Tenders Better Be Tender should this be used again--!
+      //   "item": "Chicken Ques O dilla",
+      //   "price": "$9",
+      //   "description": "Roasted chicken, cheddar, queso served with queso"
+      // }
     ]
   },
   {
