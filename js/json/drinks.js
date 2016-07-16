@@ -18,29 +18,39 @@ drink_menu = [
         "description": "White Ale"
       },
       {
+        "drink": "Allagash White",
+        "price": "$6",
+        "description": "Witbier"
+      },      
+      {
         "drink": "Stella Artios",
         "price": "$6",
         "description": "Belgian Ale"
       },
       {
-        "drink": "Son of a Peach",
-        "price": "$5",
-        "description": "Vegetable"
-      },
+        "drink": "Circut Breaker",
+        "price": "$6",
+        "description": "Inidia Pale Ale"
+      },      
       {
         "drink": "Sweetwater420",
         "price": "$5",
         "description": "Pale Ale"
       },
       {
-        "drink": "Lagunitas IPA",
-        "price": "$5",
+        "drink": "Lagunitas",
+        "price": "$6",
         "description": "India Pale Ale"
       },
       {
-        "drink": "Coast Hop Art",
+        "drink": "Bell's Two Hearted",
         "price": "$7",
         "description": "India Pale Ale"
+      },
+      {
+        "drink": "Son of a Peach",
+        "price": "$6",
+        "description": "Vegetable"
       },
       {
         "drink": "Guinness",
@@ -48,19 +58,19 @@ drink_menu = [
         "description": "Nitro Stout"
       },
       {
-        "drink": "Ashley Farmhouse Ale",
+        "drink": "Stone",
         "price": "$7",
         "description": "Saison"
-      },
-      {
-        "drink": "Craver Peanut Butter",
-        "price": "$6",
-        "description": "Porter"
       },
       {
         "drink": "Bed of Nails",
         "price": "$6",
         "description": "Brown Ale"
+      },
+      {
+        "drink": "Foothills Peoples",
+        "price": "$6",
+        "description": "Porter"
       }
     ]
   },
@@ -73,29 +83,24 @@ drink_menu = [
         "description": "watermelon infused Espolon, mint, cucumber, lime, Grand Marnier floater"
       },
       {
-        "drink": "Vespa",
-        "price": "$7",
-        "description": "Striped Pig Gin, Campari, fresh squeezed grapefruit, sweet vermouth"
-      },
-      {
-        "drink": "Driving Miss Daisy",
-        "price": "$7",
-        "description": "Honeysuckle vodka, Jack Rudy sweet tea syrup, squeezed lemon wedge, soda water"
+        "drink": "Land Cruiser FJ-40",
+        "price": "$8",
+        "description": "Not Your Father's Rootbeer, Svedka Vanilla floater, scoop vanilla ice cream"
       },
       {
         "drink": "Porsche 911",
         "price": "$8",
-        "description": "Honeysuckle vodka, Jack Rudy sweet tea syrup, squeezed lemon wedge, soda water"
+        "description": "Svedka Vanilla vodka, Kahlua, Baileys, white chocolate espresso rim"
       },
       {
         "drink": "Red Corvette",
         "price": "$8",
-        "description": "Bulleit bourbon lemon juice, simple syrup, red wine floater"
+        "description": "Bulleit bourbon, lemon juice, simple syrup, red wine floater"
       },
       {
         "drink": "Easy Rider",
         "price": "$8",
-        "description": "High West Rendevous Rye, Boylan’s ginger beer, Angostura bitters, orange twist, sweet mint"
+        "description": "Jack Daniels, Boylan’s ginger beer, Angostura bitters, orange twist, sweet mint"
       },
       {
         "drink": "Old Fashioned Pick-up",
@@ -117,13 +122,13 @@ drink_menu = [
         "price": "$1.50"
       },
       {
-        "drink": "Sixer o' Ponies",
+        "drink": "Sixer o' Pony's",
         "price": "$7.50"
       },
       {
         "drink": "Domestics",
         "price": "$3.25",
-        "description": "Budweiser, Bud Light, Coors Light, Miller Light"
+        "description": "Coors Banquet, Budweiser, Bud Light, Coors Light, Miller Light, Rolling Rock"
       },
       {
         "drink": "Imports",
@@ -132,13 +137,13 @@ drink_menu = [
       },
       {
         "drink": "Calorie Savers",
-        "price": "$3.50",
-        "description": "Michelob Ultra"
+        "price": "$3.75",
+        "description": "Michelob Ultra, O'douls"
       },
       {
         "drink": "Easy Riders",
         "price": "$5",
-        "description": "Angry Orchard, Mckenzie Cider, Stiegl Radler, NY Father Rootbeer"
+        "description": "Angry Orchard, Mckenzie Cider, Stiegl Radler, Not Your Father's Rootbeer, Henry Orange Soda"
       }
     ]
   },
@@ -147,19 +152,19 @@ drink_menu = [
     "drinks": [
       {
         "drink": "The Cheap Stuff",
-        "price": "$2.50",
-        "description": "Tecate, Milwaukee Best Ice, Busch Light"
+        "price": "$2.75",
+        "description": "Tecate"
       },
       {
         "drink": "The Good Stuff",
-        "price": "$5",
-        "description": "Coast BlackBeard, Green Man Wayfare IPA, Hi Wire Gose, Hi Wire Lager, HC Pluff Mud Porter, Oskar Ten Fidy Stout, Palmetto Pilsner, WB Gose, WB White Tai, WB One Claw IPA, Shotgun Betty Hefe, Stone Arrogant Bastard Ale, Unknown Silverback, Stout, Victory Golden Monkey"
+        "price": "$5.50",
+        "description": "Great Divide Yeti Stout, Bell's Oberon, Green Man Wayfarer IPA, Hi Wire Gose, Hi Wire Lager, Holy City Pluff Mudd Porter, Holy City Chucktown Folicle Brown, Holy City Washout Weat, Westbrook Gose, Westbrook White Thai, Westbrook One Claw IPA, Shotgun Betty Hefe, Victory Golden Monkey"
       }
     ]
   },
   {
     "title": "From the Barrel",
-    "reds": [
+    "whites": [
       {
         "wine": "Cypress Vineyards",
         "price": "$5",
@@ -181,7 +186,7 @@ drink_menu = [
         "description": "Sauvignon Blanc 2015"
       }
     ],
-    "whites": [
+    "reds": [
       {
         "wine": "Banrock Station",
         "price": "$5",

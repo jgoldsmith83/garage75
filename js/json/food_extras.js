@@ -2,11 +2,11 @@ var food_extras = {
   "salad": [
     {
       "extra_title": "Greens:",
-      "options": "Romaine, Iceberg, Spinach or Seasonal greens"
+      "options": "(choose one) romaine, iceberg, spinach or arugula"
     },
     {
       "extra_title": "Cheese:",
-      "options": "(choose one) Parmesan, Mozzarella, Feta, Cheddar or Blue cheese crumbles,",
+      "options": "(choose one) parmesan, mozzarella, feta, cheddar or Blue cheese $1",
     },
     {
       "extra_title": "Toppings:",
@@ -14,26 +14,30 @@ var food_extras = {
     },
     {
       "extra_title": "Protein",
-      "options": "Fried chicken, Roasted chicken, Grilled shrimp, Grilled mahi, Seared flank steak, Fried oyster, Bacon & roasted chicken salad: add on $4"
+      "options": "fried chicken, roasted chicken, grilled shrimp, grilled mahi, seared flank steak, fried oyster & roasted chicken salad: add on $4 roasted chic peas, pork cracklin, bacon_add on $1"
     },
     {
       "extra_title": "Dressing",
-      "options": "Honey mustard, Ranch, Blue cheese, Cesar, Greek, Italian, Thousand Island or Our signuture salad dressing"
+      "options": "(choose one) peach champagne vinaigrette, honey mustard, ranch, blue cheese, Cesar, Greek, Italian, balsamic vinaigrette, thousand island_add on $0.75"
     }
   ],
   "wings": [
     {
-      "flavors": "Mild, Hot, Carolina Reaper, Teriyaki, Reaper-yaki, Lemon pepper, Dry ranch, Garlic parmesan, Honey BBQ, Thai chili, Sriracha honey, Caribbean jerk, Honey mustard. Served w/ carrots & celery, ranch or bleu cheese"
+      "flavors": "mild, hot, evil, teriyaki, evil-yaki, lemon pepper, dry ranch, garlic parmesan, honey bbq, Thai chili, Sriracha honey, Caribbean jerk, Honey mustard. Served w/ carrots & celery, ranch or blue cheese"
     }
   ],
   "burgers": [
     {
-      "extra_title": "Cheese:",
-      "options": "American, Blu cheese, Queso, Mozzarella, Munster, Pimento, Cheddar"
+      "extra_title": "Cheese: $1.00",
+      "options": "American, blue cheese, queso, mozzarella, provolone, munster, cheddar"
     },
     {
-      "extra_title": "Toppings/Sauces:",
-      "options": "Bacon, Fried egg, Honey ham, Peach bacon habenero jam, Grilled onions, Grilled peppers, Capicola, Grilled mushooms, Pickled jalapenos, Honey-sriracha, Honey BBQ, Chipotle sauce"
-    }
+      "extra_title": "Toppings: $1.50",
+      "options": "bacon, fried egg, honey ham, peach bacon habenero jam, grilled onions, grilled peppers, capicola, pickled jalapenos"
+    },
+    {
+      "extra_title": "Sauces: $.50",
+      "options": "honey BBQ, Srircha honey, chipotle"
+    }    
   ]
 }

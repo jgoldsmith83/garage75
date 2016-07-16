@@ -5,12 +5,12 @@ var food_menu = [
       {
         "item": "G-75 Wings",
         "price": "$8",
-        "description": "Five breaded jumbo wings served w/ warm chipotle sauce"
+        "description": "five breaded jumbo wings, warm chipotle sauce"
       },
       {
         "item": "Salty Boiled Peanuts",
         "price": "$3",
-        "description": "Southern style boiled peanuts"
+        "description": "southern style boiled peanuts"
       },
       {
         "item": "G-75 Chips",
@@ -25,17 +25,17 @@ var food_menu = [
       {
         "item": "Pickled Fries",
         "price": "$6",
-        "description": "Served w/ jalapeno ranch"
+        "description": "jalapeno ranch"
       },
       {
         "item": "Lima Bean Hummus",
         "price": "$7",
-        "description": "Served w/ chopped carrots, celery, cut & toasted flatbread"
+        "description": "chopped carrots, celery, cut & toasted flatbread"
       },
       {
         "item": "Mini Corndogs",
         "price": "$5",
-        "description": "Two house battered dogs, served w/ yellow mustard"
+        "description": "two house battered dogs, yellow mustard"
       },
       // {
       //   "item": "Fried Summer Squash",
@@ -45,27 +45,27 @@ var food_menu = [
       {
         "item": "Cold Crab Dip",
         "price": "$9",
-        "description": "Served w/ Ritz crackers"
+        "description": "Ritz crackers"
       },
       {
         "item": "Fried Oysters",
         "price": "$9",
-        "description": "Served w/ cajun cream sauce"
+        "description": "cajun cream sauce"
       },
       {
         "item": "Loaded Scottish Nachos",
         "price": "$10",
-        "description": "Fresh fried potato chips covered in queso cheese, pickled jalapenos, romaine, tomatoes, corned beef & G75 kraut"
+        "description": "fresh fried potato chips, queso, pickled jalapenos, romaine, tomatoes, corned beef & G75 kraut"
       },
       {
         "item": "Honey Ham Mac & Cheese Skillet",
         "price": "$8",
-        "description": "Honey ham, cheesy mac and cheese"
+        "description": "honey ham, cheesy mac and cheese"
       },
       {
         "item": "Tenders Better Be Tender",
         "price": "$8",
-        "description": "Served w/ honey mustard"
+        "description": "honey mustard"
       }
       // { !--Remember to add , after Tenders Better Be Tender should this be used again--!
       //   "item": "Chicken Ques O dilla",
@@ -80,27 +80,27 @@ var food_menu = [
       {
         "item": "Low Country",
         "price": "$9",
-        "description": "Peach bacon habanero jam, Carmalized Onions, Mozzarella, Asparagus, pork cracklin"
+        "description": "peach bacon habanero jam, carmalized onions, mozzarella, asparagus, pork cracklin"
       },
       {
         "item": "Four Cheese Pepperoni",
         "price": "$9",
-        "description": "Red sauce, Mozzarella, Feta, Parmesan, Cheddar, Pepperoni, Basil"
+        "description": "red sauce, mozzarella, feta, parmesan, cheddar, pepperoni, basil"
       },
       {
         "item": "Roasted Chicken",
         "price": "$9",
-        "description": "Bama white sauce, Roasted chicken, Mozzarella, Pork cracklin"
+        "description": "Bama white sauce, roasted chicken, bacon, mozzarella, pickled cauliflower"
       },
       {
         "item": "Pork Belly",
         "price": "$9",
-        "description": "Mint cilantro pistachio pesto, Pork belly, Feta whipped cream cheese"
+        "description": "mint cilantro pistachio pesto, pork belly, feta whipped cream cheese, peaches"
       },
        {
         "item": "Garden",
         "price": "$9",
-        "description": "chick peas, brussel leaves, mozzarella, pecans, arugula, grape tomatoes"
+        "description": "garlic olive oil, chick peas, brussel leaves, mozzarella, pecans, arugula, grape tomatoes"
       }     
     ]
   },
@@ -110,22 +110,27 @@ var food_menu = [
       {
         "item": "Garage",
         "price": "$5",
-        "description": "Iceberg, Cherry tomatoes, Cucumbers, Red onion, Cheddar, Croutons"
+        "description": "iceberg, grape tomatoes, cucumbers, red onion, cheddar, croutons"
       },
       {
         "item": "Black and Blue Wedge",
         "price": "$9",
-        "description": "Iceberg, Cherry tomatoes, Bleu cheese crumbles, Cracked pepper, Sliced blackened flank steak"
+        "description": "sliced blackened flank steak, iceberg, grape tomatoes, blue cheese crumbles, cracked pepper"
       },
       {
         "item": "Crab Cake Ceasar",
         "price": "$10",
-        "description": "Romaine, Parmesan, Cracked pepper, Croutons, Caesar dressing, Crab cake"
+        "description": "crab cake, romaine, parmesan, cracked pepper, croutons, Caesar dressing"
       },
+      {
+        "item": "Grilled Shrimp",
+        "price": "$10",
+        "description": "grilled shirmp, arugula, peaches, pecans, gruyere, peach champange vinaigrette"
+      },      
       {
         "item": "Classic Built Salad",
         "price": "$6",
-        "description": "Build your own salad to your specs."
+        "description": "comes with grape tomatoes, cucumbers, red onion, croutons"
       }
     ]
   },
@@ -135,12 +140,12 @@ var food_menu = [
       {
         "item": "6 Wings",
         "price": "$6.5",
-        "description": "One flavor"
+        "description": "_one flavor"
       },
       {
         "item": "12 Wings",
         "price": "$11",
-        "description": "Two flavors"
+        "description": "_two flavors"
       }
     ]
   },
@@ -150,22 +155,22 @@ var food_menu = [
       {
         "item": "G-75 Doner Kebab",
         "price": "$10",
-        "description": "Roasted chicken, Salami, Lettuce, Cabbage, Onion, Roasted tomatoes, G75 pickles, Roasted garlic yogurt sauce, Rolled naan"
+        "description": "roasted chicken, salami, lettuce, cabbage, onion, roasted tomatoes, G-75 pickles, roasted garlic yogurt sauce, rolled naan"
       },
       {
         "item": "Brat Dog",
         "price": "$8",
-        "description": "Bratwurst, Spicy mustard, Saurkraut"
+        "description": "Bratwurst, spicy mustard, G-75 kraut"
       },
       {
         "item": "Roasted Chicken Salad Croissant",
         "price": "$9",
-        "description": "Grape, pecan, cranberry, celery, spinach, cherry tomato"
+        "description": "grape, pecan, cranberry, celery, arugula, grape tomato"
       },
       {
         "item": "Ham and Cheese Croissant",
         "price": "$9",
-        "description": "honey ham, muenster, yellow mustard, dukes"
+        "description": "honey ham, muenster, yellow mustard, Duke's mayo"
       },
       {
         "item": "Crab Cake BLT Croissant",
@@ -180,7 +185,7 @@ var food_menu = [
       {
         "item": "Reuben on Sourdough",
         "price": "$9",
-        "description": "corned beef, G75 saurkraut, thousand island"
+        "description": "house cured corned beef, provolone, G-75 kraut, thousand island"
       },
       {
         "item": "Italian",
@@ -195,12 +200,12 @@ var food_menu = [
       {
         "item": "Grilled Eggplant",
         "price": "$8",
-        "description": "marinated, grilled, gruyere, argula, mint cilantro, pistachio pesto on sourdough"
+        "description": "marinated, grilled, gruyere, argula, mint cilantro pistachio pesto, on sourdough"
       },
       {
         "item": "NashVegas Sandwich",
         "price": "$8",
-        "description": "fried chicken, n-ville hot sauce, white bread, G75 pickles"
+        "description": "fried chicken, n-ville hot sauce, white bread, G-75 pickles, Duke's Mayo"
       }
     ]
   },
@@ -210,7 +215,7 @@ var food_menu = [
       {
         "item": "Big Ern",
         "price": "$8",
-        "description": "8 oz patty, American cheese, bacon, Dukes mayo, LTO"
+        "description": "8 oz patty or grilled chicken breast, American cheese, bacon, Dukes mayo, LTO"
       },
       {
         "item": "Beef Patty or Grilled Chicken",
@@ -239,7 +244,7 @@ var food_menu = [
       },
       {
         "item": "Choose two",
-        "price": "$14",
+        "price": "$17",
         "description": ""
       }
     ]
@@ -266,8 +271,8 @@ var food_menu = [
   },
   {
     "title": "Sidecar Sides",
-    "items": "onion rings, grilled aspragus, roasted brussel sprouts, garage slaw (bacon blue cheese), skillet mac and cheese, tallo fried potato wedges, side salad",
+    "items": "G-75 chips, onion rings, grilled aspragus, roasted brussel sprouts, garage slaw (bacon blue cheese), skillet mac and cheese, tallow fried potato wedges, side salad",
     "price1": "sides $4",
-    "price2": "add-on $2"
+    "price2": "add on $2"
   }
 ]
