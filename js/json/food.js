@@ -1,5 +1,34 @@
 var food_menu = [
   {
+    "title": "G75 Brunch Menu",
+    "items": [
+      {
+        "item": "Creamy Geechie Boy Grits Bowl",
+        "price": "$3",
+        "description": "Add cheddar cheese & bacon $3"
+      },
+      {
+        "item": "Fruit Platter_",
+        "price": "$4",
+        "description": "Honey Dew, Canaloupe, Grapes, Ornage, Apple"
+      },
+      {
+        "item": "Garage Parfait",
+        "price": "$6.50",
+        "description": "SC Honey infused Yogurt, Granola, Johns Island Peaches, Fried Plantains Stick"
+      },
+      {
+        "item": "Biscuts with Geechie Grits",
+        "price": "$9",
+        "description": "Choices of: <br>Smoked Honey Ham, Peach Habanero Bacon Jam <br> Country Fried Steak, Sasuage Gravy <br> Sauage, Egg, Cheddar, Yellow Mustard <br> Fried Chicken"
+      },
+      {
+        "item": "Breakfast Flats",
+        "price": "11",
+        "description": "Choices of: <br>French Flat_Frenched Nann Sasuage, Maple Syrup, Powdered Sugar <br>Shrimp and Grit Flat_Geechie Boy Grits, G75 Bacon Shallot Gravy, Shrimp, Parmesan <br> Good Morning JI Flat_Sunny Side Egg, Spinach, Baby Bella, Parmesan"
+      }
+    ]
+  {
     "title": "First Gear_Starters",
     "items": [
       {
