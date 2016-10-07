@@ -28,6 +28,7 @@ var food_menu = [
         "description": "Choices of: <br>French Flat_Frenched Nann Sasuage, Maple Syrup, Powdered Sugar <br>Shrimp and Grit Flat_Geechie Boy Grits, G75 Bacon Shallot Gravy, Shrimp, Parmesan <br> Good Morning JI Flat_Sunny Side Egg, Spinach, Baby Bella, Parmesan"
       }
     ]
+  },
   {
     "title": "First Gear_Starters",
     "items": [
