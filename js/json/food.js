@@ -5,17 +5,17 @@ var food_menu = [
       {
         "item": "G-75 Wings",
         "price": "$8",
-        "description": "five breaded jumbo wings, warm chipotle sauce"
+        "description": "five_jumbo, breaded wings dipped in warm chipotle glaze"
       },
       {
         "item": "Salty Boiled Peanuts",
         "price": "$3",
-        "description": "southern style boiled peanuts"
+        "description": ""
       },
       {
-        "item": "G-75 Chips",
-        "price": "$4",
-        "description": "Dry seasoned: BBQ, salt & vinegar, or chili cheese"
+        "item": "Pickled Fries",
+        "price": "$6",
+        "description": "jalapeno ranch"
       },
       // {
       //   "item": "Bag o' Jerk",
@@ -23,44 +23,34 @@ var food_menu = [
       //   "description": "Teriyaki, Ghost pepper, or Cracked pepper"
       // },
       {
-        "item": "Pickled Fries",
-        "price": "$6",
-        "description": "jalapeno ranch"
+        "item": "Blistered Shishito Peppers",
+        "price": "$7",
+        "description": "coarse sea salt, roasted garlic yogurt"
       },
       {
-        "item": "Lima Bean Hummus",
-        "price": "$7",
-        "description": "chopped carrots, celery, cut & toasted flatbread"
+        "item": "Folly Nam Sod",
+        "price": "$6",
+        "description": "ground pork or vegetable_iceburg wraps, ginger, boiled peanus, scallions, rainbow carrots, cabbage, celery, hoison"
+      },
+      {
+        "item": "Pimento Biscut Sliders",
+        "price": "$8",
+        "description": "G-75 pork belly, pimento cheese, pear habanero jam"
       },
       {
         "item": "Mini Corndogs",
         "price": "$5",
-        "description": "two house battered dogs, yellow mustard"
-      },
-      // {
-      //   "item": "Fried Summer Squash",
-      //   "price": "$7",
-      //   "description": "Served w/ jalapeno ranch"
-      // },
-      {
-        "item": "Cold Crab Dip",
-        "price": "$9",
-        "description": "Ritz crackers"
+        "description": "two_house battered, spicy mustard"
       },
       {
-        "item": "Fried Oysters",
+        "item": "Warm Crab Dip Skillet",
         "price": "$9",
-        "description": "cajun cream sauce"
+        "description": "lump crab, winter greens, cream cheese, parmesan"
       },
       {
         "item": "Loaded Scottish Nachos",
         "price": "$10",
         "description": "fresh fried potato chips, queso, pickled jalapenos, romaine, tomatoes, corned beef & G75 kraut"
-      },
-      {
-        "item": "Honey Ham Mac & Cheese Skillet",
-        "price": "$8",
-        "description": "honey ham, cheesy mac and cheese"
       },
       {
         "item": "Tenders Better Be Tender",
