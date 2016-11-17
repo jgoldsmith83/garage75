@@ -335,11 +335,11 @@ var food_menu = [
         "price": "$10",
         "description": "fresh fried potato chips, queso, pickled jalapenos, romaine, tomatoes, corned beef & G75 kraut"
       },
-      {
-        "item": "Honey Ham Mac & Cheese Skillet",
-        "price": "$8",
-        "description": "honey ham, cheesy mac and cheese"
-      },
+      // {
+      //   "item": "Honey Ham Mac & Cheese Skillet",
+      //   "price": "$8",
+      //   "description": "honey ham, cheesy mac and cheese"
+      // },
       {
         "item": "Tenders Better Be Tender",
         "price": "$8",
