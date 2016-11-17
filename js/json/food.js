@@ -5,7 +5,7 @@ var food_menu = [
       {
         "item": "G-75 Wings",
         "price": "$8",
-        "description": "five breaded jumbo wings, warm chipotle sauce"
+        "description": "five_jumbo, breaded, dipped in warm chipotle glaze"
       },
       {
         "item": "Salty Boiled Peanuts",
